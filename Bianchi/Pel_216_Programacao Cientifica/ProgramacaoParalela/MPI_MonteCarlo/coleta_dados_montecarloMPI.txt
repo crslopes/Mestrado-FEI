@@ -1,0 +1,2705 @@
+###########################################################################################################
+tempos para execuçao direta sem MPI
+###########################################################################################################
+
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelDireto> time  -p ./MontCarloParalelDireto
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1827200000
+ Erro 0.066302426305649 - Passos: 100000
+#############################################################
+
+real 9,70
+user 9,70
+sys 0,00
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelDireto> time  -p ./MontCarloParalelDireto
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1218200000
+ Erro 0.066313009273264 - Passos: 100000
+#############################################################
+
+real 9,72
+user 9,71
+sys 0,00
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelDireto> time  -p ./MontCarloParalelDireto
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0823400000
+ Erro 0.066319570273367 - Passos: 100000
+#############################################################
+
+real 9,71
+user 9,70
+sys 0,00
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelDireto> time  -p ./MontCarloParalelDireto
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0319400000
+ Erro 0.066327603592803 - Passos: 100000
+#############################################################
+
+real 9,70
+user 9,70
+sys 0,00
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelDireto> time  -p ./MontCarloParalelDireto
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0752000000
+ Erro 0.066320731672683 - Passos: 100000
+#############################################################
+
+real 9,70
+user 9,69
+sys 0,00
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelDireto> time  -p ./MontCarloParalelDireto
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0596600000
+ Erro 0.066323232783422 - Passos: 100000
+#############################################################
+
+real 9,71
+user 9,69
+sys 0,01
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelDireto> time  -p ./MontCarloParalelDireto
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0260600000
+ Erro 0.066328515804019 - Passos: 100000
+#############################################################
+
+real 9,70
+user 9,70
+sys 0,00
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelDireto> time  -p ./MontCarloParalelDireto
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.2083400000
+ Erro 0.066297806482900 - Passos: 100000
+#############################################################
+
+real 9,71
+user 9,70
+sys 0,00
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelDireto> time  -p ./MontCarloParalelDireto
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.2184200000
+ Erro 0.066295961619363 - Passos: 100000
+#############################################################
+
+real 9,71
+user 9,70
+sys 0,00
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelDireto> time  -p ./MontCarloParalelDireto
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9643200000
+ Erro 0.066337778598443 - Passos: 100000
+#############################################################
+
+real 9,70
+user 9,69
+sys 0,00
+
+
+###########################################################################################################
+tempos para numero de processos = 1
+###########################################################################################################
+
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 1 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0924200000
+ Erro 0.066317917529398 - Passos: 100000
+#############################################################
+
+real 9,98
+user 9,73
+sys 0,06
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 1 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9933000000
+ Erro 0.066333502478763 - Passos: 100000
+#############################################################
+
+real 10,01
+user 9,77
+sys 0,05
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 1 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1285400000
+ Erro 0.066311869033258 - Passos: 100000
+#############################################################
+
+real 10,28
+user 10,04
+sys 0,05
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 1 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1100600000
+ Erro 0.066314988260302 - Passos: 100000
+#############################################################
+
+real 10,02
+user 9,78
+sys 0,05
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 1 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9697800000
+ Erro 0.066336982653087 - Passos: 100000
+#############################################################
+
+real 10,01
+user 9,77
+sys 0,05
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 1 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1608800000
+ Erro 0.066306286099102 - Passos: 100000
+#############################################################
+
+real 9,99
+user 9,75
+sys 0,05
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 1 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1478600000
+ Erro 0.066308552798293 - Passos: 100000
+#############################################################
+
+real 9,99
+user 9,74
+sys 0,06
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 1 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1088000000
+ Erro 0.066315199054214 - Passos: 100000
+#############################################################
+
+real 10,00
+user 9,73
+sys 0,08
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 1 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0407600000
+ Erro 0.066326225478494 - Passos: 100000
+#############################################################
+
+real 10,00
+user 9,76
+sys 0,05
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 1 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1050200000
+ Erro 0.066315829995530 - Passos: 100000
+#############################################################
+
+real 10,00
+user 9,76
+sys 0,05
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 1 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1247600000
+ Erro 0.066312511258615 - Passos: 100000
+#############################################################
+
+real 10,00
+user 9,74
+sys 0,07
+
+###########################################################################################################
+tempos para numero de processos = 2
+###########################################################################################################
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 2 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0571400000
+ Erro 0.066323634929066 - Passos: 100000
+#############################################################
+
+real 6,52
+user 12,52
+sys 0,10
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 2 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0449600000
+ Erro 0.066325565101128 - Passos: 100000
+#############################################################
+
+real 6,51
+user 12,50
+sys 0,09
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 2 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1466000000
+ Erro 0.066308770795423 - Passos: 100000
+#############################################################
+
+real 6,54
+user 12,55
+sys 0,09
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 2 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1205600000
+ Erro 0.066313222307953 - Passos: 100000
+#############################################################
+
+real 6,50
+user 12,48
+sys 0,07
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 2 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0588200000
+ Erro 0.066323366938629 - Passos: 100000
+#############################################################
+
+real 6,53
+user 12,55
+sys 0,06
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 2 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0579800000
+ Erro 0.066323500987176 - Passos: 100000
+#############################################################
+
+real 6,54
+user 12,52
+sys 0,11
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 2 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1583600000
+ Erro 0.066306726816395 - Passos: 100000
+#############################################################
+
+real 6,53
+user 12,52
+sys 0,10
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 2 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0617600000
+ Erro 0.066322896928768 - Passos: 100000
+#############################################################
+
+real 6,52
+user 12,54
+sys 0,07
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 2 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.2041400000
+ Erro 0.066298570637714 - Passos: 100000
+#############################################################
+
+real 6,53
+user 12,52
+sys 0,11
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 2 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1062800000
+ Erro 0.066315619921825 - Passos: 100000
+#############################################################
+
+real 6,54
+user 12,54
+sys 0,09
+
+###########################################################################################################
+tempos para numero de processos = 3
+###########################################################################################################
+
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 3 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1581615816
+ Erro 0.066307093012848 - Passos: 99999
+#############################################################
+
+real 6,44
+user 17,12
+sys 1,29
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 3 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1220412204
+ Erro 0.066313303412958 - Passos: 99999
+#############################################################
+
+real 6,30
+user 16,86
+sys 0,75
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 3 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9704197042
+ Erro 0.066337220790787 - Passos: 99999
+#############################################################
+
+real 6,13
+user 16,28
+sys 0,25
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 3 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1010410104
+ Erro 0.066316823402095 - Passos: 99999
+#############################################################
+
+real 6,16
+user 16,29
+sys 0,18
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 3 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1720217202
+ Erro 0.066304657558497 - Passos: 99999
+#############################################################
+
+real 6,70
+user 17,90
+sys 1,50
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 3 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1619416194
+ Erro 0.066306431680189 - Passos: 99999
+#############################################################
+
+real 6,34
+user 16,73
+sys 0,53
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 3 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1060810608
+ Erro 0.066315984686706 - Passos: 99999
+#############################################################
+
+real 6,15
+user 16,22
+sys 0,19
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 3 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0141001410
+ Erro 0.066330686764425 - Passos: 99999
+#############################################################
+
+real 6,11
+user 16,11
+sys 0,17
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 3 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1464014640
+ Erro 0.066309136669460 - Passos: 99999
+#############################################################
+
+real 6,12
+user 16,38
+sys 0,21
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 3 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9695796958
+ Erro 0.066337343620065 - Passos: 99999
+#############################################################
+
+real 5,95
+user 16,77
+sys 0,23
+
+
+###########################################################################################################
+tempos para numero de processos = 4
+###########################################################################################################
+
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 4 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1516400000
+ Erro 0.066307897366030 - Passos: 100000
+#############################################################
+
+real 5,33
+user 20,11
+sys 0,26
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 4 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1285400000
+ Erro 0.066311869033258 - Passos: 100000
+#############################################################
+
+real 5,33
+user 20,17
+sys 0,19
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 4 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0151400000
+ Erro 0.066330196048286 - Passos: 100000
+#############################################################
+
+real 5,34
+user 20,14
+sys 0,22
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 4 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1449200000
+ Erro 0.066309061084711 - Passos: 100000
+#############################################################
+
+real 5,34
+user 20,11
+sys 0,25
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 4 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1743200000
+ Erro 0.066303919381708 - Passos: 100000
+#############################################################
+
+real 5,34
+user 20,15
+sys 0,23
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 4 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1197200000
+ Erro 0.066313364197694 - Passos: 100000
+#############################################################
+
+real 5,37
+user 20,23
+sys 0,23
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 4 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1033400000
+ Erro 0.066316109720369 - Passos: 100000
+#############################################################
+
+real 5,34
+user 20,14
+sys 0,21
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 4 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0936800000
+ Erro 0.066317709856237 - Passos: 100000
+#############################################################
+
+real 5,35
+user 20,15
+sys 0,22
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 4 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0621800000
+ Erro 0.066322829677842 - Passos: 100000
+#############################################################
+
+real 5,34
+user 20,10
+sys 0,27
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 4 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0978800000
+ Erro 0.066317015878702 - Passos: 100000
+#############################################################
+
+real 5,49
+user 20,56
+sys 0,29
+
+
+###########################################################################################################
+tempos para numero de processos = 5
+###########################################################################################################
+
+
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 5 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1193000000
+ Erro 0.066313435102549 - Passos: 100000
+#############################################################
+
+real 5,54
+user 20,20
+sys 0,48
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 5 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1146800000
+ Erro 0.066314213295311 - Passos: 100000
+#############################################################
+
+real 5,53
+user 20,32
+sys 0,48
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 5 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0684800000
+ Erro 0.066321817714052 - Passos: 100000
+#############################################################
+
+real 5,51
+user 20,12
+sys 0,39
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 5 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0945200000
+ Erro 0.066317571274105 - Passos: 100000
+#############################################################
+
+real 5,58
+user 20,19
+sys 0,51
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 5 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1970000000
+ Erro 0.066299863574520 - Passos: 100000
+#############################################################
+
+real 5,50
+user 20,03
+sys 0,51
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 5 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0995600000
+ Erro 0.066316737540865 - Passos: 100000
+#############################################################
+
+real 5,55
+user 20,30
+sys 0,54
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 5 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.2175800000
+ Erro 0.066296115945325 - Passos: 100000
+#############################################################
+
+real 5,63
+user 20,05
+sys 0,34
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 5 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0638600000
+ Erro 0.066322560407481 - Passos: 100000
+#############################################################
+
+real 5,48
+user 20,21
+sys 0,38
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 5 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1033400000
+ Erro 0.066316109720369 - Passos: 100000
+#############################################################
+
+real 5,56
+user 20,11
+sys 0,54
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 5 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1772600000
+ Erro 0.066303398019438 - Passos: 100000
+#############################################################
+
+real 5,45
+user 20,25
+sys 0,44
+
+
+###########################################################################################################
+tempos para numero de processos = 6
+###########################################################################################################
+
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 6 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0529821193
+ Erro 0.066325622877548 - Passos: 99996
+#############################################################
+
+real 5,52
+user 20,18
+sys 0,51
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 6 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1134645386
+ Erro 0.066315743819461 - Passos: 99996
+#############################################################
+
+real 5,48
+user 20,12
+sys 0,47
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 6 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.2155286211
+ Erro 0.066297818348272 - Passos: 99996
+#############################################################
+
+real 5,51
+user 20,44
+sys 0,46
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 6 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.2319092764
+ Erro 0.066294794632307 - Passos: 99996
+#############################################################
+
+real 5,50
+user 20,53
+sys 0,52
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 6 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1676467059
+ Erro 0.066306424073220 - Passos: 99996
+#############################################################
+
+real 5,45
+user 20,16
+sys 0,42
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 6 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0168606744
+ Erro 0.066331259125133 - Passos: 99996
+#############################################################
+
+real 5,43
+user 20,13
+sys 0,39
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 6 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0609624385
+ Erro 0.066324351062206 - Passos: 99996
+#############################################################
+
+real 5,54
+user 20,53
+sys 0,43
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 6 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0760830433
+ Erro 0.066321914905215 - Passos: 99996
+#############################################################
+
+real 5,41
+user 20,18
+sys 0,34
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 6 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1332053282
+ Erro 0.066312399671669 - Passos: 99996
+#############################################################
+
+real 5,49
+user 20,28
+sys 0,50
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 6 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1092643706
+ Erro 0.066316447736677 - Passos: 99996
+#############################################################
+
+real 5,40
+user 20,20
+sys 0,34
+
+
+###########################################################################################################
+tempos para numero de processos = 7
+###########################################################################################################
+
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 7 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1582079104
+ Erro 0.066308411115274 - Passos: 99995
+#############################################################
+
+real 5,45
+user 20,37
+sys 0,47
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 7 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0422821141
+ Erro 0.066327644672252 - Passos: 99995
+#############################################################
+
+real 5,53
+user 20,43
+sys 0,55
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 7 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0305215261
+ Erro 0.066329482387959 - Passos: 99995
+#############################################################
+
+real 5,57
+user 20,50
+sys 0,78
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 7 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0179208960
+ Erro 0.066331428172565 - Passos: 99995
+#############################################################
+
+real 5,46
+user 20,27
+sys 0,51
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 7 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1615680784
+ Erro 0.066307823311914 - Passos: 99995
+#############################################################
+
+real 5,56
+user 20,29
+sys 0,50
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 7 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1531676584
+ Erro 0.066309289617753 - Passos: 99995
+#############################################################
+
+real 5,47
+user 20,30
+sys 0,51
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 7 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1561078054
+ Erro 0.066308777625007 - Passos: 99995
+#############################################################
+
+real 5,48
+user 20,42
+sys 0,53
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 7 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0515225761
+ Erro 0.066326186087148 - Passos: 99995
+#############################################################
+
+real 5,58
+user 20,42
+sys 0,52
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 7 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.2132306615
+ Erro 0.066298570788846 - Passos: 99995
+#############################################################
+
+real 5,45
+user 20,24
+sys 0,40
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 7 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1111655583
+ Erro 0.066316461038502 - Passos: 99995
+#############################################################
+
+real 5,46
+user 20,34
+sys 0,52
+
+
+###########################################################################################################
+tempos para numero de processos = 8
+###########################################################################################################
+
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 8 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1188800000
+ Erro 0.066313505980728 - Passos: 100000
+#############################################################
+
+real 5,43
+user 20,38
+sys 0,45
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 8 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1088000000
+ Erro 0.066315199054214 - Passos: 100000
+#############################################################
+
+real 5,48
+user 20,45
+sys 0,53
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 8 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1650800000
+ Erro 0.066305549435443 - Passos: 100000
+#############################################################
+
+real 5,52
+user 20,60
+sys 0,52
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 8 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1109000000
+ Erro 0.066314847597653 - Passos: 100000
+#############################################################
+
+real 5,43
+user 20,36
+sys 0,40
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 8 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1436600000
+ Erro 0.066309278521516 - Passos: 100000
+#############################################################
+
+real 5,45
+user 20,42
+sys 0,46
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 8 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1974200000
+ Erro 0.066299787732963 - Passos: 100000
+#############################################################
+
+real 5,51
+user 20,55
+sys 0,54
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 8 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0722600000
+ Erro 0.066321207655802 - Passos: 100000
+#############################################################
+
+real 5,52
+user 20,51
+sys 0,60
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 8 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1491200000
+ Erro 0.066308334561019 - Passos: 100000
+#############################################################
+
+real 5,53
+user 20,50
+sys 0,66
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 8 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0882200000
+ Erro 0.066318608039644 - Passos: 100000
+#############################################################
+
+real 5,46
+user 20,37
+sys 0,49
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 8 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0512600000
+ Erro 0.066324569535912 - Passos: 100000
+#############################################################
+
+real 5,44
+user 20,35
+sys 0,45
+
+
+###########################################################################################################
+tempos para numero de processos = 9
+###########################################################################################################
+
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 9 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1090210902
+ Erro 0.066315493662203 - Passos: 99999
+#############################################################
+
+real 5,62
+user 20,73
+sys 0,85
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 9 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.2346023460
+ Erro 0.066293299197484 - Passos: 99999
+#############################################################
+
+real 5,52
+user 20,53
+sys 0,59
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 9 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0019200192
+ Erro 0.066332537738329 - Passos: 99999
+#############################################################
+
+real 5,52
+user 20,46
+sys 0,64
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 9 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9548795488
+ Erro 0.066339475877742 - Passos: 99999
+#############################################################
+
+real 5,56
+user 20,60
+sys 0,73
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 9 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1304413044
+ Erro 0.066311876743331 - Passos: 99999
+#############################################################
+
+real 5,50
+user 20,45
+sys 0,53
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 9 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0913809138
+ Erro 0.066318420203879 - Passos: 99999
+#############################################################
+
+real 5,75
+user 20,84
+sys 1,21
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 9 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.8893588936
+ Erro 0.066348582719816 - Passos: 99999
+#############################################################
+
+real 5,62
+user 20,62
+sys 0,85
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 9 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0153601536
+ Erro 0.066330494004863 - Passos: 99999
+#############################################################
+
+real 5,61
+user 20,60
+sys 0,85
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 9 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1816818168
+ Erro 0.066302942933481 - Passos: 99999
+#############################################################
+
+real 5,58
+user 20,61
+sys 0,80
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 9 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0346803468
+ Erro 0.066327508314296 - Passos: 99999
+#############################################################
+
+real 5,52
+user 20,46
+sys 0,68
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 9 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0489604896
+ Erro 0.066325265241238 - Passos: 99999
+#############################################################
+
+real 5,72
+user 20,81
+sys 1,17
+
+
+###########################################################################################################
+tempos para numero de processos = 10
+###########################################################################################################
+
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 10 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0218600000
+ Erro 0.066329164184422 - Passos: 100000
+#############################################################
+
+real 5,62
+user 20,75
+sys 0,77
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 10 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1676000000
+ Erro 0.066305106156313 - Passos: 100000
+#############################################################
+
+real 5,58
+user 20,61
+sys 0,77
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 10 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1566800000
+ Erro 0.066307020094225 - Passos: 100000
+#############################################################
+
+real 5,65
+user 20,80
+sys 0,80
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 10 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0852800000
+ Erro 0.066319089809918 - Passos: 100000
+#############################################################
+
+real 5,52
+user 20,49
+sys 0,69
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 10 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0831800000
+ Erro 0.066319433131443 - Passos: 100000
+#############################################################
+
+real 5,61
+user 20,64
+sys 0,81
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 10 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0991400000
+ Erro 0.066316807165333 - Passos: 100000
+#############################################################
+
+real 5,65
+user 20,67
+sys 0,91
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 10 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1222400000
+ Erro 0.066312938208347 - Passos: 100000
+#############################################################
+
+real 5,58
+user 20,65
+sys 0,69
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 10 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0672200000
+ Erro 0.066322020586801 - Passos: 100000
+#############################################################
+
+real 5,59
+user 20,57
+sys 0,87
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 10 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1373600000
+ Erro 0.066310362103551 - Passos: 100000
+#############################################################
+
+real 5,60
+user 20,58
+sys 0,82
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 10 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0949400000
+ Erro 0.066317501943032 - Passos: 100000
+#############################################################
+
+real 5,59
+user 20,64
+sys 0,81
+
+
+
+###########################################################################################################
+tempos para numero de processos = 20
+###########################################################################################################
+
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 20 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0071600000
+ Erro 0.066331412523359 - Passos: 100000
+#############################################################
+
+real 5,87
+user 21,03
+sys 1,25
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 20 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9823800000
+ Erro 0.066335128667667 - Passos: 100000
+#############################################################
+
+real 5,81
+user 20,96
+sys 1,20
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 20 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0134600000
+ Erro 0.066330452947979 - Passos: 100000
+#############################################################
+
+real 5,76
+user 21,00
+sys 1,02
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 20 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9525600000
+ Erro 0.066339477646903 - Passos: 100000
+#############################################################
+
+real 5,84
+user 21,09
+sys 1,22
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 20 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0264800000
+ Erro 0.066328450819358 - Passos: 100000
+#############################################################
+
+real 5,89
+user 21,20
+sys 1,30
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 20 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1739000000
+ Erro 0.066303993755278 - Passos: 100000
+#############################################################
+
+real 5,83
+user 21,03
+sys 1,25
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 20 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1075400000
+ Erro 0.066315409608054 - Passos: 100000
+#############################################################
+
+real 5,78
+user 20,99
+sys 1,24
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 20 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0663800000
+ Erro 0.066322155701967 - Passos: 100000
+#############################################################
+
+real 5,87
+user 21,20
+sys 1,30
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 20 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0143000000
+ Erro 0.066330324551445 - Passos: 100000
+#############################################################
+
+real 5,78
+user 20,95
+sys 1,30
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 20 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0017000000
+ Erro 0.066332239304127 - Passos: 100000
+#############################################################
+
+real 5,83
+user 21,10
+sys 1,24
+
+###########################################################################################################
+tempos para numero de processos = 30
+###########################################################################################################
+
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 30 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9652565257
+ Erro 0.066340959524926 - Passos: 99990
+#############################################################
+
+real 6,35
+user 22,06
+sys 2,43
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 30 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9060306031
+ Erro 0.066349312796698 - Passos: 99990
+#############################################################
+
+real 6,11
+user 21,64
+sys 1,95
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 30 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1294929493
+ Erro 0.066315022619294 - Passos: 99990
+#############################################################
+
+real 6,32
+user 21,90
+sys 2,41
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 30 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0992499250
+ Erro 0.066320105033521 - Passos: 99990
+#############################################################
+
+real 6,34
+user 22,02
+sys 2,45
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 30 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0303630363
+ Erro 0.066331165393685 - Passos: 99990
+#############################################################
+
+real 6,13
+user 21,60
+sys 1,99
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 30 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1206720672
+ Erro 0.066316519278765 - Passos: 99990
+#############################################################
+
+real 6,42
+user 21,94
+sys 2,70
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 30 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.2672667267
+ Erro 0.066290118331570 - Passos: 99990
+#############################################################
+
+real 6,18
+user 21,70
+sys 2,05
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 30 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0778277828
+ Erro 0.066323621395263 - Passos: 99990
+#############################################################
+
+real 6,35
+user 22,17
+sys 2,31
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 30 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1223522352
+ Erro 0.066316235108040 - Passos: 99990
+#############################################################
+
+real 6,12
+user 21,65
+sys 1,91
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 30 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9186318632
+ Erro 0.066347579873986 - Passos: 99990
+#############################################################
+
+real 6,31
+user 21,87
+sys 2,41
+
+
+###########################################################################################################
+tempos para numero de processos = 40
+###########################################################################################################
+
+
+
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 40 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1151000000
+ Erro 0.066314142683895 - Passos: 100000
+#############################################################
+
+real 6,82
+user 22,93
+sys 3,39
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 40 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9815400000
+ Erro 0.066335253012889 - Passos: 100000
+#############################################################
+
+real 6,76
+user 22,73
+sys 3,30
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 40 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0416000000
+ Erro 0.066326093616314 - Passos: 100000
+#############################################################
+
+real 6,44
+user 22,20
+sys 2,52
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 40 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1041800000
+ Erro 0.066315969911297 - Passos: 100000
+#############################################################
+
+real 6,47
+user 22,19
+sys 2,74
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 40 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1243400000
+ Erro 0.066312582483598 - Passos: 100000
+#############################################################
+
+real 6,74
+user 22,62
+sys 3,45
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 40 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0290000000
+ Erro 0.066328060351559 - Passos: 100000
+#############################################################
+
+real 6,47
+user 22,34
+sys 2,56
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 40 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1302200000
+ Erro 0.066311582906126 - Passos: 100000
+#############################################################
+
+real 6,76
+user 22,61
+sys 3,21
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 40 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0743600000
+ Erro 0.066320867801198 - Passos: 100000
+#############################################################
+
+real 6,50
+user 22,35
+sys 2,68
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 40 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0168200000
+ Erro 0.066329938722088 - Passos: 100000
+#############################################################
+
+real 6,82
+user 22,89
+sys 3,37
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 40 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0726800000
+ Erro 0.066321139738216 - Passos: 100000
+#############################################################
+
+real 6,67
+user 22,38
+sys 3,21
+
+
+###########################################################################################################
+tempos para numero de processos = 50
+###########################################################################################################
+
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 50 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9912000000
+ Erro 0.066333816606615 - Passos: 100000
+#############################################################
+
+real 7,17
+user 23,68
+sys 3,96
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 50 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1835600000
+ Erro 0.066302276410874 - Passos: 100000
+#############################################################
+
+real 7,10
+user 23,35
+sys 3,89
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 50 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9966600000
+ Erro 0.066332998488264 - Passos: 100000
+#############################################################
+
+real 7,12
+user 23,48
+sys 4,03
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 50 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1449200000
+ Erro 0.066309061084711 - Passos: 100000
+#############################################################
+
+real 7,13
+user 23,61
+sys 3,83
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 50 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0894800000
+ Erro 0.066318401166614 - Passos: 100000
+#############################################################
+
+real 7,05
+user 23,30
+sys 3,75
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 50 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0563000000
+ Erro 0.066323768764297 - Passos: 100000
+#############################################################
+
+real 7,09
+user 23,73
+sys 3,70
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 50 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9899400000
+ Erro 0.066334004763500 - Passos: 100000
+#############################################################
+
+real 7,02
+user 23,36
+sys 3,72
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 50 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0092600000
+ Erro 0.066331093331288 - Passos: 100000
+#############################################################
+
+real 7,15
+user 23,43
+sys 3,85
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 50 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.2058200000
+ Erro 0.066298265296130 - Passos: 100000
+#############################################################
+
+real 6,94
+user 23,15
+sys 3,78
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 50 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0806600000
+ Erro 0.066319844237181 - Passos: 100000
+#############################################################
+
+real 7,05
+user 23,47
+sys 3,82
+
+
+###########################################################################################################
+tempos para numero de processos = 60
+###########################################################################################################
+
+
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 60 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1096638655
+ Erro 0.066328321549326 - Passos: 99960
+#############################################################
+
+real 7,55
+user 24,11
+sys 4,81
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 60 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0924369748
+ Erro 0.066331182296557 - Passos: 99960
+#############################################################
+
+real 7,29
+user 23,97
+sys 4,26
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 60 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1630252101
+ Erro 0.066319175332733 - Passos: 99960
+#############################################################
+
+real 7,29
+user 23,74
+sys 4,20
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 60 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0592436975
+ Erro 0.066336567924419 - Passos: 99960
+#############################################################
+
+real 7,42
+user 24,03
+sys 4,46
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 60 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0626050420
+ Erro 0.066336030125445 - Passos: 99960
+#############################################################
+
+real 7,24
+user 23,79
+sys 4,18
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 60 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0600840336
+ Erro 0.066336433634826 - Passos: 99960
+#############################################################
+
+real 7,61
+user 24,32
+sys 4,75
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 60 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0159663866
+ Erro 0.066343339518699 - Passos: 99960
+#############################################################
+
+real 7,33
+user 23,88
+sys 4,32
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 60 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1084033613
+ Erro 0.066328532394207 - Passos: 99960
+#############################################################
+
+real 7,36
+user 24,09
+sys 4,15
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 60 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0184873950
+ Erro 0.066342952822578 - Passos: 99960
+#############################################################
+
+real 7,43
+user 24,13
+sys 4,25
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 60 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0298319328
+ Erro 0.066341200802156 - Passos: 99960
+#############################################################
+
+real 7,44
+user 24,16
+sys 4,62
+
+###########################################################################################################
+tempos para numero de processos = 70
+###########################################################################################################
+
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 70 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9819327731
+ Erro 0.066348465904360 - Passos: 99960
+#############################################################
+
+real 7,88
+user 24,68
+sys 5,56
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 70 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1151260504
+ Erro 0.066327405111193 - Passos: 99960
+#############################################################
+
+real 8,02
+user 25,10
+sys 5,54
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 70 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1105042017
+ Erro 0.066328180852565 - Passos: 99960
+#############################################################
+
+real 8,02
+user 25,33
+sys 5,54
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 70 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0970588235
+ Erro 0.066330419184420 - Passos: 99960
+#############################################################
+
+real 8,19
+user 25,04
+sys 6,24
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 70 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0399159664
+ Erro 0.066339627118933 - Passos: 99960
+#############################################################
+
+real 7,94
+user 24,78
+sys 5,73
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 70 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1705882353
+ Erro 0.066317844162907 - Passos: 99960
+#############################################################
+
+real 8,01
+user 25,01
+sys 5,65
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 70 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9978991597
+ Erro 0.066346082731002 - Passos: 99960
+#############################################################
+
+real 7,87
+user 24,90
+sys 5,20
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 70 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1163865546
+ Erro 0.066327192984614 - Passos: 99960
+#############################################################
+
+real 8,11
+user 25,25
+sys 5,96
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 70 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0025210084
+ Erro 0.066345385674945 - Passos: 99960
+#############################################################
+
+real 7,93
+user 24,96
+sys 5,53
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 70 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0004201681
+ Erro 0.066345702918814 - Passos: 99960
+#############################################################
+
+real 7,97
+user 25,16
+sys 5,52
+
+
+###########################################################################################################
+tempos para numero de processos = 80
+###########################################################################################################
+
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 80 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0726800000
+ Erro 0.066321139738216 - Passos: 100000
+#############################################################
+
+real 8,70
+user 26,20
+sys 7,34
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 80 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1062800000
+ Erro 0.066315619921825 - Passos: 100000
+#############################################################
+
+real 8,60
+user 26,20
+sys 7,10
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 80 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0869600000
+ Erro 0.066318814672640 - Passos: 100000
+#############################################################
+
+real 8,63
+user 26,10
+sys 6,87
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 80 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9714600000
+ Erro 0.066336736840788 - Passos: 100000
+#############################################################
+
+real 8,56
+user 26,31
+sys 6,70
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 80 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1226600000
+ Erro 0.066312867116752 - Passos: 100000
+#############################################################
+
+real 8,72
+user 26,39
+sys 7,36
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 80 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.2385800000
+ Erro 0.066292225757143 - Passos: 100000
+#############################################################
+
+real 8,70
+user 26,44
+sys 7,06
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 80 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1197200000
+ Erro 0.066313364197694 - Passos: 100000
+#############################################################
+
+real 8,75
+user 26,50
+sys 7,48
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 80 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1226600000
+ Erro 0.066312867116752 - Passos: 100000
+#############################################################
+
+real 8,60
+user 26,01
+sys 7,08
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 80 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1352600000
+ Erro 0.066310721963526 - Passos: 100000
+#############################################################
+
+real 8,74
+user 26,46
+sys 7,49
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 80 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9521400000
+ Erro 0.066339537940839 - Passos: 100000
+#############################################################
+
+real 8,61
+user 26,41
+sys 6,83
+
+
+###########################################################################################################
+tempos para numero de processos = 90
+###########################################################################################################
+
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 90 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0727872787
+ Erro 0.066324438690899 - Passos: 99990
+#############################################################
+
+real 9,47
+user 27,45
+sys 9,34
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 90 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0824482448
+ Erro 0.066322868833200 - Passos: 99990
+#############################################################
+
+real 9,46
+user 27,61
+sys 9,15
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 90 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1353735374
+ Erro 0.066314018308418 - Passos: 99990
+#############################################################
+
+real 9,77
+user 28,42
+sys 9,46
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 90 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9900390039
+ Erro 0.066337306936118 - Passos: 99990
+#############################################################
+
+real 9,71
+user 27,76
+sys 9,61
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 90 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0601860186
+ Erro 0.066326465125598 - Passos: 99990
+#############################################################
+
+real 9,70
+user 27,87
+sys 9,60
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 90 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1021902190
+ Erro 0.066319616979975 - Passos: 99990
+#############################################################
+
+real 9,58
+user 27,85
+sys 9,01
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 90 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.2000600060
+ Erro 0.066302625616459 - Passos: 99990
+#############################################################
+
+real 9,51
+user 27,91
+sys 9,27
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 90 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0534653465
+ Erro 0.066327536075454 - Passos: 99990
+#############################################################
+
+real 9,68
+user 28,00
+sys 9,35
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 90 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1538553855
+ Erro 0.066310827849467 - Passos: 99990
+#############################################################
+
+real 9,53
+user 27,95
+sys 9,07
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 90 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9879387939
+ Erro 0.066337620076237 - Passos: 99990
+#############################################################
+
+real 9,48
+user 27,79
+sys 9,15
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 90 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0786678668
+ Erro 0.066323484805876 - Passos: 99990
+#############################################################
+
+real 9,70
+user 28,06
+sys 9,46
+
+
+
+###########################################################################################################
+tempos para numero de processos = 100
+###########################################################################################################
+
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 100 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1562600000
+ Erro 0.066307093346972 - Passos: 100000
+#############################################################
+
+real 10,70
+user 29,76
+sys 11,95
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 100 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9613800000
+ Erro 0.066338205319077 - Passos: 100000
+#############################################################
+
+real 10,96
+user 29,72
+sys 13,00
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 100 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0470600000
+ Erro 0.066325233912622 - Passos: 100000
+#############################################################
+
+real 10,87
+user 29,58
+sys 12,36
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 100 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0491600000
+ Erro 0.066324902057553 - Passos: 100000
+#############################################################
+
+real 10,91
+user 30,08
+sys 12,32
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 100 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1289600000
+ Erro 0.066311797541493 - Passos: 100000
+#############################################################
+
+real 10,84
+user 29,60
+sys 12,55
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 100 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0584000000
+ Erro 0.066323433976235 - Passos: 100000
+#############################################################
+
+real 10,77
+user 29,37
+sys 12,39
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 100 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0567200000
+ Erro 0.066323701860014 - Passos: 100000
+#############################################################
+
+real 11,39
+user 30,40
+sys 13,86
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 100 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0987200000
+ Erro 0.066316876763129 - Passos: 100000
+#############################################################
+
+real 10,63
+user 29,60
+sys 11,56
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 100 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0420200000
+ Erro 0.066326027645231 - Passos: 100000
+#############################################################
+
+real 10,93
+user 29,89
+sys 12,68
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 100 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0743600000
+ Erro 0.066320867801198 - Passos: 100000
+#############################################################
+
+real 10,90
+user 29,88
+sys 12,53
+
+
+
+###########################################################################################################
+tempos para numero de processos = 150
+###########################################################################################################
+
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 150 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0127927928
+ Erro 0.066363745028765 - Passos: 99900
+#############################################################
+
+real 32,57
+user 55,45
+sys 72,47
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 150 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0750150150
+ Erro 0.066353946931953 - Passos: 99900
+#############################################################
+
+real 32,57
+user 55,49
+sys 72,83
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 150 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1380780781
+ Erro 0.066343418905827 - Passos: 99900
+#############################################################
+
+real 32,83
+user 55,51
+sys 73,76
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 150 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1019219219
+ Erro 0.066349528564419 - Passos: 99900
+#############################################################
+
+real 33,62
+user 56,44
+sys 76,13
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 150 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9623423423
+ Erro 0.066371259715916 - Passos: 99900
+#############################################################
+
+real 32,50
+user 55,30
+sys 72,55
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 150 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0565165165
+ Erro 0.066356921036714 - Passos: 99900
+#############################################################
+
+real 34,39
+user 57,16
+sys 78,34
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 150 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9610810811
+ Erro 0.066371442653869 - Passos: 99900
+#############################################################
+
+real 32,56
+user 56,70
+sys 71,67
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 150 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0317117117
+ Erro 0.066360827819641 - Passos: 99900
+#############################################################
+
+real 33,37
+user 55,89
+sys 75,06
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 150 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1027627628
+ Erro 0.066349388725707 - Passos: 99900
+#############################################################
+
+real 31,71
+user 54,60
+sys 70,17
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 150 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1036036036
+ Erro 0.066349248780034 - Passos: 99900
+#############################################################
+
+real 31,64
+user 54,09
+sys 70,49
+
+
+###########################################################################################################
+tempos para numero de processos = 200
+###########################################################################################################
+
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 200 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0550400000
+ Erro 0.066323969317163 - Passos: 100000
+#############################################################
+
+real 62,55
+user 91,38
+sys 155,57
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 200 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1453400000
+ Erro 0.066308988552413 - Passos: 100000
+#############################################################
+
+real 45,52
+user 77,21
+sys 101,19
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 200 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0390800000
+ Erro 0.066326488882919 - Passos: 100000
+#############################################################
+
+real 65,71
+user 95,17
+sys 162,68
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 200 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9991800000
+ Erro 0.066332619375960 - Passos: 100000
+#############################################################
+
+real 65,18
+user 94,81
+sys 162,34
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 200 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9634800000
+ Erro 0.066337900651860 - Passos: 100000
+#############################################################
+
+real 63,36
+user 91,93
+sys 157,39
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 200 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1541600000
+ Erro 0.066307459210439 - Passos: 100000
+#############################################################
+
+real 58,90
+user 87,10
+sys 145,63
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 200 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0487400000
+ Erro 0.066324968481892 - Passos: 100000
+#############################################################
+
+real 61,55
+user 90,71
+sys 151,76
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 200 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0201800000
+ Erro 0.066329422790162 - Passos: 100000
+#############################################################
+
+real 68,48
+user 102,72
+sys 167,74
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 200 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9433200000
+ Erro 0.066340797958541 - Passos: 100000
+#############################################################
+
+real 63,76
+user 92,09
+sys 158,92
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 200 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1109000000
+ Erro 0.066314847597653 - Passos: 100000
+#############################################################
+
+real 62,58
+user 91,49
+sys 154,17
+
+
+
+
+###########################################################################################################
+tempos para numero de processos = 250
+###########################################################################################################
+
+
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 250 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1058600000
+ Erro 0.066315689973067 - Passos: 100000
+#############################################################
+
+real 318,78
+user 612,79
+sys 645,61
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 250 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1075400000
+ Erro 0.066315409608054 - Passos: 100000
+#############################################################
+
+real 251,34
+user 455,30
+sys 534,77
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 250 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0882200000
+ Erro 0.066318608039644 - Passos: 100000
+#############################################################
+
+real 248,64
+user 453,24
+sys 525,50
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 250 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0869600000
+ Erro 0.066318814672640 - Passos: 100000
+#############################################################
+
+real 241,36
+user 436,61
+sys 513,81
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 250 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0197600000
+ Erro 0.066329487374953 - Passos: 100000
+#############################################################
+
+real 239,21
+user 431,10
+sys 510,77
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 250 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0701600000
+ Erro 0.066321546843722 - Passos: 100000
+#############################################################
+
+real 241,23
+user 432,91
+sys 515,57
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 250 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9223200000
+ Erro 0.066343750709287 - Passos: 100000
+#############################################################
+
+real 248,50
+user 451,77
+sys 526,52
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 250 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.0672200000
+ Erro 0.066322020586801 - Passos: 100000
+#############################################################
+
+real 233,64
+user 417,72
+sys 502,24
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 250 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 21.9739800000
+ Erro 0.066336367322880 - Passos: 100000
+#############################################################
+
+real 235,59
+user 424,74
+sys 501,85
+cmoreira@linux-1e8a:~/bianchi/MontCarloParalelo> time  -p mpiexec -n 250 MontCarloParalelo
+
+
+#############################################################
+ Metodo Acumulado Integral de Monte Carlo : 22.1747400000
+ Erro 0.066303844981449 - Passos: 100000
+#############################################################
+
+real 259,22
+user 478,99
+sys 542,50
+
