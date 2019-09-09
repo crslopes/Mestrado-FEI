@@ -1,0 +1,2174 @@
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=1
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415924152
+ Erro -0.00000000000000473695 - Passos: 16777215
+real 7.94
+user 6.98
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415924152
+ Erro -0.00000000000000473695 - Passos: 16777215
+real 5.22
+user 5.18
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415924152
+ Erro -0.00000000000000473695 - Passos: 16777215
+real 5.45
+user 5.35
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415924152
+ Erro -0.00000000000000473695 - Passos: 16777215
+real 5.06
+user 5.01
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415924152
+ Erro -0.00000000000000473695 - Passos: 16777215
+real 4.69
+user 4.67
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415924152
+ Erro -0.00000000000000473695 - Passos: 16777215
+real 4.89
+user 4.87
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415924152
+ Erro -0.00000000000000473695 - Passos: 16777215
+real 5.04
+user 5.01
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415924152
+ Erro -0.00000000000000473695 - Passos: 16777215
+real 4.96
+user 4.93
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415924152
+ Erro -0.00000000000000473695 - Passos: 16777215
+real 5.04
+user 5.01
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415924152
+ Erro -0.00000000000000473695 - Passos: 16777215
+real 5.00
+user 4.93
+sys 0.01
+
+#####################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=2
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1417892956
+ Erro -0.00000000000000473695 - Passos: 16593004
+real 3.01
+user 5.98
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1417502195
+ Erro -0.00000000000000473695 - Passos: 16531724
+real 3.26
+user 6.32
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416044323
+ Erro -0.00000000000000473695 - Passos: 16477138
+real 3.30
+user 6.50
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1417917770
+ Erro -0.00000000000000473695 - Passos: 16548648
+real 3.07
+user 6.01
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1411887877
+ Erro -0.00000000000000473695 - Passos: 16484760
+real 3.43
+user 6.60
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415200744
+ Erro -0.00000000000000473695 - Passos: 16529956
+real 3.11
+user 6.14
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415601485
+ Erro -0.00000000000000473695 - Passos: 16497390
+real 3.32
+user 6.51
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414002777
+ Erro -0.00000000000000473695 - Passos: 16516764
+real 3.29
+user 6.46
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415908255
+ Erro -0.00000000000000473695 - Passos: 16444755
+real 3.31
+user 6.43
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416048341
+ Erro -0.00000000000000473695 - Passos: 16554669
+real 3.09
+user 6.04
+sys 0.01
+
+###########################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=3
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416385788
+ Erro -0.00000000000000473695 - Passos: 13857396
+real 2.28
+user 6.70
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1405456869
+ Erro -0.00000000000000473695 - Passos: 14123019
+real 2.34
+user 6.79
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414650542
+ Erro -0.00000000000000473695 - Passos: 14247493
+real 2.40
+user 6.82
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1402042937
+ Erro -0.00000000000000473695 - Passos: 13819605
+real 2.39
+user 7.09
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1411659285
+ Erro -0.00000000000000473695 - Passos: 14150229
+real 2.65
+user 7.57
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416471034
+ Erro -0.00000000000000473695 - Passos: 13948560
+real 2.38
+user 7.04
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1417068600
+ Erro -0.00000000000000473695 - Passos: 13999758
+real 2.44
+user 7.06
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1427443068
+ Erro -0.00000000000000473695 - Passos: 14141380
+real 2.57
+user 7.40
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1413178960
+ Erro -0.00000000000000473695 - Passos: 14011625
+real 2.44
+user 7.04
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1395869540
+ Erro -0.00000000000000473695 - Passos: 13998036
+real 2.54
+user 7.34
+sys 0.01
+
+###########################################################################################
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=4
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1400678659
+ Erro -0.00000000000000473695 - Passos: 13089947
+real 1.85
+user 7.34
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1413852023
+ Erro -0.00000000000000473695 - Passos: 13081483
+real 1.89
+user 7.45
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1387692926
+ Erro -0.00000000000000473695 - Passos: 13178320
+real 1.91
+user 7.45
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1410855480
+ Erro -0.00000000000000473695 - Passos: 13088151
+real 2.02
+user 7.79
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1410722909
+ Erro -0.00000000000000473695 - Passos: 13137256
+real 2.16
+user 7.96
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1413749452
+ Erro -0.00000000000000473695 - Passos: 13258905
+real 2.01
+user 7.67
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1424191784
+ Erro -0.00000000000000473695 - Passos: 13135012
+real 2.06
+user 7.78
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1413644700
+ Erro -0.00000000000000473695 - Passos: 13184635
+real 2.17
+user 8.25
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1412160113
+ Erro -0.00000000000000473695 - Passos: 13108964
+real 2.05
+user 7.76
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1417423100
+ Erro -0.00000000000000473695 - Passos: 13117282
+real 2.02
+user 7.75
+sys 0.00
+
+###########################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=5
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1418710002
+ Erro -0.00000000000000473695 - Passos: 12035453
+real 1.80
+user 8.43
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1418240901
+ Erro -0.00000000000000473695 - Passos: 12141399
+real 2.02
+user 9.21
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1417755908
+ Erro -0.00000000000000473695 - Passos: 12075934
+real 1.80
+user 8.45
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1417434164
+ Erro -0.00000000000000473695 - Passos: 12110189
+real 1.96
+user 8.95
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1423679630
+ Erro -0.00000000000000473695 - Passos: 12006365
+real 2.02
+user 8.96
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1421080021
+ Erro -0.00000000000000473695 - Passos: 11905519
+real 1.82
+user 8.56
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1401018531
+ Erro -0.00000000000000473695 - Passos: 12190303
+real 1.90
+user 8.65
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1424330238
+ Erro -0.00000000000000473695 - Passos: 11975954
+real 1.68
+user 8.18
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1436036062
+ Erro -0.00000000000000473695 - Passos: 11988168
+real 1.94
+user 8.95
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1398227851
+ Erro -0.00000000000000473695 - Passos: 12040900
+real 1.81
+user 8.45
+sys 0.03
+
+###########################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=6
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414904033
+ Erro -0.00000000000000473695 - Passos: 11105305
+real 1.66
+user 9.32
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1443464131
+ Erro -0.00000000000000473695 - Passos: 11108927
+real 1.55
+user 8.75
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1402452804
+ Erro -0.00000000000000473695 - Passos: 11171628
+real 1.61
+user 9.20
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1409568780
+ Erro -0.00000000000000473695 - Passos: 10743486
+real 1.72
+user 9.76
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1407819747
+ Erro -0.00000000000000473695 - Passos: 11092655
+real 1.77
+user 10.06
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1431052183
+ Erro -0.00000000000000473695 - Passos: 10893556
+real 1.73
+user 9.84
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1429481297
+ Erro -0.00000000000000473695 - Passos: 11031940
+real 1.56
+user 8.65
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1411042150
+ Erro -0.00000000000000473695 - Passos: 11012924
+real 1.55
+user 8.73
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1392187683
+ Erro -0.00000000000000473695 - Passos: 11162658
+real 1.69
+user 9.56
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416119874
+ Erro -0.00000000000000473695 - Passos: 11200068
+real 1.52
+user 8.54
+sys 0.01
+
+###########################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=7
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415979268
+ Erro -0.00000000000000473695 - Passos: 10106487
+real 1.40
+user 9.25
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1412266131
+ Erro -0.00000000000000473695 - Passos: 10178220
+real 1.60
+user 9.90
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1405625603
+ Erro -0.00000000000000473695 - Passos: 10288825
+real 1.53
+user 9.54
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1409014120
+ Erro -0.00000000000000473695 - Passos: 10378090
+real 1.48
+user 9.12
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1406598782
+ Erro -0.00000000000000473695 - Passos: 10361083
+real 1.46
+user 8.93
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1418755916
+ Erro -0.00000000000000473695 - Passos: 10481154
+real 1.42
+user 8.82
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1400252202
+ Erro -0.00000000000000473695 - Passos: 10321123
+real 1.46
+user 9.07
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1424395279
+ Erro -0.00000000000000473695 - Passos: 10192907
+real 1.49
+user 9.60
+sys 0.04
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1410522811
+ Erro -0.00000000000000473695 - Passos: 10425448
+real 1.46
+user 9.12
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1402430806
+ Erro -0.00000000000000473695 - Passos: 10461878
+real 1.55
+user 9.54
+sys 0.01
+
+###########################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=8
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1431610807
+ Erro -0.00000000000000473695 - Passos: 10025433
+real 1.55
+user 9.78
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1406111224
+ Erro -0.00000000000000473695 - Passos: 10390531
+real 1.58
+user 9.85
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1420420922
+ Erro -0.00000000000000473695 - Passos: 10298245
+real 1.56
+user 9.67
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1384038413
+ Erro -0.00000000000000473695 - Passos: 10378604
+real 1.60
+user 9.81
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1404232160
+ Erro -0.00000000000000473695 - Passos: 10056002
+real 1.49
+user 9.78
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1418833732
+ Erro -0.00000000000000473695 - Passos: 10213560
+real 1.50
+user 9.89
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416528053
+ Erro -0.00000000000000473695 - Passos: 10379267
+real 1.51
+user 9.73
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1409255288
+ Erro -0.00000000000000473695 - Passos: 10032667
+real 1.51
+user 9.65
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1418951954
+ Erro -0.00000000000000473695 - Passos: 9968297
+real 1.50
+user 9.62
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414140751
+ Erro -0.00000000000000473695 - Passos: 9893541
+real 1.53
+user 9.79
+sys 0.00
+
+###########################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=9
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1425074015
+ Erro -0.00000000000000473695 - Passos: 9817268
+real 1.44
+user 8.76
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416639681
+ Erro -0.00000000000000473695 - Passos: 9889185
+real 1.41
+user 8.82
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1425131450
+ Erro -0.00000000000000473695 - Passos: 9770801
+real 1.43
+user 8.82
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1409394483
+ Erro -0.00000000000000473695 - Passos: 9948671
+real 1.42
+user 8.68
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1404924540
+ Erro -0.00000000000000473695 - Passos: 10237552
+real 1.46
+user 8.89
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1425804615
+ Erro -0.00000000000000473695 - Passos: 9658675
+real 1.44
+user 8.79
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1387954916
+ Erro -0.00000000000000473695 - Passos: 9893411
+real 1.45
+user 8.57
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1446150742
+ Erro -0.00000000000000473695 - Passos: 9721503
+real 1.44
+user 8.79
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1407170565
+ Erro -0.00000000000000473695 - Passos: 9905447
+real 1.48
+user 8.87
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414698363
+ Erro -0.00000000000000473695 - Passos: 9676049
+real 1.44
+user 8.76
+
+###########################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=10
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1417561493
+ Erro -0.00000000000000473695 - Passos: 9556348
+real 1.37
+user 8.98
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1417020180
+ Erro -0.00000000000000473695 - Passos: 9467000
+real 1.42
+user 8.64
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1427147550
+ Erro -0.00000000000000473695 - Passos: 10382603
+real 1.49
+user 8.81
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1411783260
+ Erro -0.00000000000000473695 - Passos: 10053829
+real 1.66
+user 8.87
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1436973104
+ Erro -0.00000000000000473695 - Passos: 10092025
+real 1.57
+user 8.95
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1412772164
+ Erro -0.00000000000000473695 - Passos: 9536520
+real 1.43
+user 8.76
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1407305263
+ Erro -0.00000000000000473695 - Passos: 9531115
+real 1.42
+user 8.65
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1432242792
+ Erro -0.00000000000000473695 - Passos: 9611055
+real 1.44
+user 8.85
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1405128093
+ Erro -0.00000000000000473695 - Passos: 9581841
+real 1.46
+user 8.68
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1422970539
+ Erro -0.00000000000000473695 - Passos: 10028136
+real 1.43
+user 8.71
+sys 0.00
+
+###########################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=20
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1422838461
+ Erro -0.00000000000000473695 - Passos: 8418461
+real 1.39
+user 8.81
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1427579753
+ Erro -0.00000000000000473695 - Passos: 9324620
+real 1.39
+user 8.78
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1395547594
+ Erro -0.00000000000000473695 - Passos: 9340014
+real 1.34
+user 8.70
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415917854
+ Erro -0.00000000000000473695 - Passos: 8367839
+real 1.36
+user 8.75
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1418278747
+ Erro -0.00000000000000473695 - Passos: 8929332
+real 1.35
+user 8.82
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1417204559
+ Erro -0.00000000000000473695 - Passos: 6170171
+real 1.34
+user 8.75
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414623236
+ Erro -0.00000000000000473695 - Passos: 8722219
+real 1.36
+user 8.73
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1411292075
+ Erro -0.00000000000000473695 - Passos: 9209344
+real 1.35
+user 8.84
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1411304573
+ Erro -0.00000000000000473695 - Passos: 8537758
+real 1.35
+user 8.96
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414319476
+ Erro -0.00000000000000473695 - Passos: 7763816
+real 1.34
+user 8.81
+sys 0.03
+
+###########################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=30
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414924942
+ Erro -0.00000000000000473695 - Passos: 9791722
+real 1.32
+user 8.59
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1418079859
+ Erro -0.00000000000000473695 - Passos: 6924562
+real 1.25
+user 8.34
+sys 0.04
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1412235587
+ Erro -0.00000000000000473695 - Passos: 6857063
+real 1.29
+user 8.53
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1406775298
+ Erro -0.00000000000000473695 - Passos: 6659127
+real 1.32
+user 8.68
+sys 0.06
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416890141
+ Erro -0.00000000000000473695 - Passos: 5678264
+real 1.31
+user 8.60
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1413140549
+ Erro -0.00000000000000473695 - Passos: 6576903
+real 1.35
+user 8.93
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1411750319
+ Erro -0.00000000000000473695 - Passos: 7779452
+real 1.33
+user 8.71
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414484271
+ Erro -0.00000000000000473695 - Passos: 8709193
+real 1.32
+user 8.67
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414444675
+ Erro -0.00000000000000473695 - Passos: 8617157
+real 1.32
+user 8.57
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415004943
+ Erro -0.00000000000000473695 - Passos: 8116777
+real 1.30
+user 8.75
+sys 0.03
+
+###########################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=40
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415124060
+ Erro -0.00000000000000473695 - Passos: 6774921
+real 1.36
+user 8.78
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1413092640
+ Erro -0.00000000000000473695 - Passos: 9802172
+real 1.33
+user 8.73
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1419009216
+ Erro -0.00000000000000473695 - Passos: 7139898
+real 1.34
+user 8.73
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414008506
+ Erro -0.00000000000000473695 - Passos: 9224448
+real 1.30
+user 8.82
+sys 0.04
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1418507391
+ Erro -0.00000000000000473695 - Passos: 8833552
+real 1.26
+user 8.79
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1407163741
+ Erro -0.00000000000000473695 - Passos: 6020715
+real 1.27
+user 8.84
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1417520222
+ Erro -0.00000000000000473695 - Passos: 7042401
+real 1.33
+user 8.67
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1417626019
+ Erro -0.00000000000000473695 - Passos: 9144189
+real 1.31
+user 8.65
+sys 0.09
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1411612886
+ Erro -0.00000000000000473695 - Passos: 7780156
+real 1.29
+user 8.68
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415717396
+ Erro -0.00000000000000473695 - Passos: 7753728
+real 1.37
+user 8.76
+sys 0.01
+
+###########################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=50
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1418398085
+ Erro -0.00000000000000473695 - Passos: 8539977
+real 1.27
+user 8.67
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416571566
+ Erro -0.00000000000000473695 - Passos: 7559902
+real 1.26
+user 8.79
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1421903619
+ Erro -0.00000000000000473695 - Passos: 6577757
+real 1.30
+user 8.45
+sys 0.04
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1410587988
+ Erro -0.00000000000000473695 - Passos: 8189767
+real 1.24
+user 8.60
+sys 0.07
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1410189699
+ Erro -0.00000000000000473695 - Passos: 8189680
+real 1.25
+user 8.46
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1413394858
+ Erro -0.00000000000000473695 - Passos: 7622581
+real 1.27
+user 8.73
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1417152702
+ Erro -0.00000000000000473695 - Passos: 7374891
+real 1.30
+user 8.62
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414163358
+ Erro -0.00000000000000473695 - Passos: 5298534
+real 1.27
+user 8.79
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415587508
+ Erro -0.00000000000000473695 - Passos: 6236521
+real 1.27
+user 8.59
+sys 0.09
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1412451298
+ Erro -0.00000000000000473695 - Passos: 6686709
+real 1.26
+user 8.45
+sys 0.01
+
+###########################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=60
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1420944841
+ Erro -0.00000000000000473695 - Passos: 7308087
+real 1.28
+user 8.70
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1417011210
+ Erro -0.00000000000000473695 - Passos: 6379903
+real 1.24
+user 8.48
+sys 0.07
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1419401528
+ Erro -0.00000000000000473695 - Passos: 7236877
+real 1.39
+user 9.23
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1419425412
+ Erro -0.00000000000000473695 - Passos: 6818619
+real 1.24
+user 8.71
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416593082
+ Erro -0.00000000000000473695 - Passos: 6783427
+real 1.23
+user 8.60
+sys 0.06
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1408778882
+ Erro -0.00000000000000473695 - Passos: 7952079
+real 1.29
+user 8.67
+sys 0.09
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415979449
+ Erro -0.00000000000000473695 - Passos: 6170479
+real 1.25
+user 8.71
+sys 0.07
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1413658459
+ Erro -0.00000000000000473695 - Passos: 8068154
+real 1.28
+user 8.78
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1413251719
+ Erro -0.00000000000000473695 - Passos: 6282810
+real 1.24
+user 8.56
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415291998
+ Erro -0.00000000000000473695 - Passos: 7666007
+real 1.25
+user 8.79
+sys 0.03
+
+###########################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=70
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1419279533
+ Erro -0.00000000000000473695 - Passos: 5587383
+real 1.24
+user 8.87
+sys 0.04
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415230872
+ Erro -0.00000000000000473695 - Passos: 7992797
+real 1.22
+user 8.70
+sys 0.10
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415749873
+ Erro -0.00000000000000473695 - Passos: 3666155
+real 1.22
+user 8.78
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1410424594
+ Erro -0.00000000000000473695 - Passos: 7543638
+real 1.23
+user 8.78
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415511801
+ Erro -0.00000000000000473695 - Passos: 5996355
+real 1.21
+user 8.50
+sys 0.12
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414238151
+ Erro -0.00000000000000473695 - Passos: 7675631
+real 1.23
+user 8.68
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1409902038
+ Erro -0.00000000000000473695 - Passos: 7989350
+real 1.27
+user 8.79
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415724416
+ Erro -0.00000000000000473695 - Passos: 7472807
+real 1.24
+user 8.76
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1413212334
+ Erro -0.00000000000000473695 - Passos: 7565480
+real 1.24
+user 8.65
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414707564
+ Erro -0.00000000000000473695 - Passos: 7866924
+real 1.26
+user 8.68
+sys 0.03
+
+###########################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=80
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414791014
+ Erro -0.00000000000000473695 - Passos: 7894676
+real 1.22
+user 8.62
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415658175
+ Erro -0.00000000000000473695 - Passos: 7695779
+real 1.24
+user 8.40
+sys 0.04
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1418292511
+ Erro -0.00000000000000473695 - Passos: 7458918
+real 1.26
+user 8.70
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415040494
+ Erro -0.00000000000000473695 - Passos: 7206694
+real 1.25
+user 8.68
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414117841
+ Erro -0.00000000000000473695 - Passos: 6994294
+real 1.24
+user 8.70
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1421753842
+ Erro -0.00000000000000473695 - Passos: 5563345
+real 1.23
+user 8.65
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1419550090
+ Erro -0.00000000000000473695 - Passos: 6627706
+real 1.22
+user 8.64
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1412097213
+ Erro -0.00000000000000473695 - Passos: 7323213
+real 1.23
+user 8.76
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1418593284
+ Erro -0.00000000000000473695 - Passos: 7944491
+real 1.22
+user 8.60
+sys 0.04
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1420253391
+ Erro -0.00000000000000473695 - Passos: 7583113
+real 1.22
+user 8.53
+sys 0.03
+
+###########################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=90
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1412719058
+ Erro -0.00000000000000473695 - Passos: 7732218
+real 1.24
+user 8.71
+sys 0.06
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1418784638
+ Erro -0.00000000000000473695 - Passos: 7769254
+real 1.23
+user 8.51
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1413742103
+ Erro -0.00000000000000473695 - Passos: 8300188
+real 1.24
+user 8.68
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416437224
+ Erro -0.00000000000000473695 - Passos: 8402735
+real 1.24
+user 8.60
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414139414
+ Erro -0.00000000000000473695 - Passos: 8281936
+real 1.25
+user 8.67
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416081045
+ Erro -0.00000000000000473695 - Passos: 7881694
+real 1.24
+user 8.75
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415660600
+ Erro -0.00000000000000473695 - Passos: 6947633
+real 1.24
+user 8.62
+sys 0.06
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1418366529
+ Erro -0.00000000000000473695 - Passos: 7912149
+real 1.23
+user 8.75
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1417362992
+ Erro -0.00000000000000473695 - Passos: 7731982
+real 1.24
+user 8.62
+sys 0.07
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416779491
+ Erro -0.00000000000000473695 - Passos: 7564059
+real 1.24
+user 8.45
+sys 0.04
+
+###########################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=100
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1417899941
+ Erro -0.00000000000000473695 - Passos: 8231184
+real 1.21
+user 8.73
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414147360
+ Erro -0.00000000000000473695 - Passos: 8142497
+real 1.19
+user 8.82
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415717880
+ Erro -0.00000000000000473695 - Passos: 9765098
+real 1.22
+user 8.65
+sys 0.04
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1417724221
+ Erro -0.00000000000000473695 - Passos: 8527801
+real 1.20
+user 8.64
+sys 0.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414344136
+ Erro -0.00000000000000473695 - Passos: 7517569
+real 1.21
+user 8.68
+sys 0.04
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415933312
+ Erro -0.00000000000000473695 - Passos: 5966005
+real 1.24
+user 8.64
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1419280887
+ Erro -0.00000000000000473695 - Passos: 6003641
+real 1.22
+user 8.89
+sys 0.01
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1413396354
+ Erro -0.00000000000000473695 - Passos: 8660655
+real 1.21
+user 8.67
+sys 0.06
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1408220209
+ Erro -0.00000000000000473695 - Passos: 5410783
+real 1.23
+user 8.87
+sys 0.06
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416073999
+ Erro -0.00000000000000473695 - Passos: 8055578
+real 1.22
+user 8.79
+sys 0.06
+
+###########################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=150
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415029572
+ Erro -0.00000000000000473695 - Passos: 9610787
+real 1.18
+user 8.62
+sys 0.07
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416278309
+ Erro -0.00000000000000473695 - Passos: 9468028
+real 1.18
+user 8.76
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414804150
+ Erro -0.00000000000000473695 - Passos: 4921317
+real 1.22
+user 8.67
+sys 0.15
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415568605
+ Erro -0.00000000000000473695 - Passos: 10009145
+real 1.21
+user 8.53
+sys 0.06
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1420537562
+ Erro -0.00000000000000473695 - Passos: 9643037
+real 1.18
+user 8.78
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1419018415
+ Erro -0.00000000000000473695 - Passos: 5248834
+real 1.20
+user 8.84
+sys 0.06
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1418060988
+ Erro -0.00000000000000473695 - Passos: 9724142
+real 1.22
+user 8.62
+sys 0.07
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1418376303
+ Erro -0.00000000000000473695 - Passos: 9393236
+real 1.22
+user 8.57
+sys 0.10
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414492264
+ Erro -0.00000000000000473695 - Passos: 9288499
+real 1.20
+user 8.56
+sys 0.03
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415932955
+ Erro -0.00000000000000473695 - Passos: 9583706
+real 1.20
+user 8.71
+sys 0.07
+
+###########################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=200
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416892790
+ Erro -0.00000000000000473695 - Passos: 9485300
+real 1.21
+user 8.76
+sys 0.09
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416149227
+ Erro -0.00000000000000473695 - Passos: 9585589
+real 1.22
+user 8.65
+sys 0.04
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414490903
+ Erro -0.00000000000000473695 - Passos: 9224824
+real 1.21
+user 8.59
+sys 0.14
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1421262557
+ Erro -0.00000000000000473695 - Passos: 9772197
+real 1.23
+user 8.51
+sys 0.07
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1413997923
+ Erro -0.00000000000000473695 - Passos: 5293431
+real 1.23
+user 8.78
+sys 0.06
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1418373323
+ Erro -0.00000000000000473695 - Passos: 8993887
+real 1.22
+user 8.75
+sys 0.06
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1419370933
+ Erro -0.00000000000000473695 - Passos: 9377500
+real 1.26
+user 8.64
+sys 0.04
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415908355
+ Erro -0.00000000000000473695 - Passos: 9263376
+real 1.21
+user 8.71
+sys 0.07
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414411372
+ Erro -0.00000000000000473695 - Passos: 9793545
+real 1.20
+user 8.60
+sys 0.04
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415027227
+ Erro -0.00000000000000473695 - Passos: 9742914
+real 1.19
+user 8.78
+sys 0.07
+
+###########################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=250
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1417496569
+ Erro -0.00000000000000473695 - Passos: 9413510
+real 1.20
+user 8.67
+sys 0.15
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416669136
+ Erro -0.00000000000000473695 - Passos: 9703161
+real 1.22
+user 8.62
+sys 0.04
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415812321
+ Erro -0.00000000000000473695 - Passos: 9713625
+real 1.22
+user 8.82
+sys 0.07
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414935202
+ Erro -0.00000000000000473695 - Passos: 9429139
+real 1.21
+user 8.62
+sys 0.10
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1417949618
+ Erro -0.00000000000000473695 - Passos: 9415302
+real 1.22
+user 8.68
+sys 0.09
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1418004017
+ Erro -0.00000000000000473695 - Passos: 9240320
+real 1.19
+user 8.71
+sys 0.18
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416243242
+ Erro -0.00000000000000473695 - Passos: 9849121
+real 1.20
+user 8.65
+sys 0.09
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1413421073
+ Erro -0.00000000000000473695 - Passos: 9378976
+real 1.24
+user 8.82
+sys 0.04
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414296469
+ Erro -0.00000000000000473695 - Passos: 9473551
+real 1.22
+user 8.59
+sys 0.14
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415330987
+ Erro -0.00000000000000473695 - Passos: 9383996
+real 1.21
+user 8.78
+sys 0.15
+
+###########################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=500
+\cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414627887
+ Erro -0.00000000000000473695 - Passos: 9795057
+real 1.26
+user 8.82
+sys 0.21
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415950924
+ Erro -0.00000000000000473695 - Passos: 9785246
+real 1.23
+user 8.76
+sys 0.25
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415499558
+ Erro -0.00000000000000473695 - Passos: 9509377
+real 1.26
+user 8.93
+sys 0.20
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415370029
+ Erro -0.00000000000000473695 - Passos: 9419729
+real 1.24
+user 8.82
+sys 0.10
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1413502900
+ Erro -0.00000000000000473695 - Passos: 9419494
+real 1.24
+user 9.01
+sys 0.14
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415520207
+ Erro -0.00000000000000473695 - Passos: 9441833
+real 1.25
+user 9.03
+sys 0.14
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415600220
+ Erro -0.00000000000000473695 - Passos: 9227150
+real 1.24
+user 8.87
+sys 0.12
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415787346
+ Erro -0.00000000000000473695 - Passos: 9725732
+real 1.24
+user 9.01
+sys 0.12
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414298601
+ Erro -0.00000000000000473695 - Passos: 9723641
+real 1.24
+user 8.96
+sys 0.17
+
+###########################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=1000
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415751558
+ Erro -0.00000000000000473695 - Passos: 9766507
+real 1.38
+user 8.96
+sys 0.48
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1413822968
+ Erro -0.00000000000000473695 - Passos: 9442398
+real 1.41
+user 9.04
+sys 0.46
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416038117
+ Erro -0.00000000000000473695 - Passos: 9421183
+real 1.39
+user 9.26
+sys 0.29
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415784014
+ Erro -0.00000000000000473695 - Passos: 9468739
+real 1.38
+user 9.20
+sys 0.23
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1418075299
+ Erro -0.00000000000000473695 - Passos: 9746872
+real 1.38
+user 9.06
+sys 0.71
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415189139
+ Erro -0.00000000000000473695 - Passos: 9733418
+real 1.37
+user 8.76
+sys 0.84
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415742994
+ Erro -0.00000000000000473695 - Passos: 9274557
+real 1.38
+user 8.96
+sys 0.53
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415822864
+ Erro -0.00000000000000473695 - Passos: 9839673
+real 1.39
+user 9.09
+sys 0.46
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1413191919
+ Erro -0.00000000000000473695 - Passos: 9374901
+real 1.42
+user 9.26
+sys 0.28
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415288452
+ Erro -0.00000000000000473695 - Passos: 9691426
+real 1.38
+user 9.03
+sys 0.51
+
+###########################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=5000
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416773109
+ Erro -0.00000000000000473695 - Passos: 9955385
+real 4.74
+user 10.78
+sys 4.57
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414513730
+ Erro -0.00000000000000473695 - Passos: 9869953
+real 4.64
+user 10.21
+sys 5.40
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1418034457
+ Erro -0.00000000000000473695 - Passos: 9987752
+real 4.53
+user 10.70
+sys 4.64
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1413747744
+ Erro -0.00000000000000473695 - Passos: 9931441
+real 4.57
+user 10.23
+sys 4.95
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1414981924
+ Erro -0.00000000000000473695 - Passos: 9545314
+real 4.67
+user 10.54
+sys 5.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415519910
+ Erro -0.00000000000000473695 - Passos: 9948425
+real 4.77
+user 11.32
+sys 5.48
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416346860
+ Erro -0.00000000000000473695 - Passos: 9496908
+real 4.81
+user 11.92
+sys 4.82
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415716905
+ Erro -0.00000000000000473695 - Passos: 9901588
+real 4.96
+user 12.31
+sys 4.56
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415394682
+ Erro -0.00000000000000473695 - Passos: 9936288
+real 4.76
+user 11.95
+sys 4.93
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415909414
+ Erro -0.00000000000000473695 - Passos: 9933317
+real 4.71
+user 12.10
+sys 4.76
+
+###########################################################################################
+
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> export OMP_NUM_THREADS=10000
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP>
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1417060701
+ Erro -0.00000000000000473695 - Passos: 9703781
+real 15.37
+user 12.45
+sys 16.84
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416003910
+ Erro -0.00000000000000473695 - Passos: 10044217
+real 16.92
+user 13.35
+sys 18.60
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416738307
+ Erro -0.00000000000000473695 - Passos: 10081107
+real 15.39
+user 13.89
+sys 16.81
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415717811
+ Erro -0.00000000000000473695 - Passos: 9894871
+real 15.66
+user 13.92
+sys 17.62
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415182774
+ Erro -0.00000000000000473695 - Passos: 9825306
+real 15.99
+user 12.54
+sys 17.45
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1415841046
+ Erro -0.00000000000000473695 - Passos: 10045885
+real 15.63
+user 13.90
+sys 17.64
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1416095363
+ Erro -0.00000000000000473695 - Passos: 9734659
+real 15.53
+user 14.31
+sys 16.71
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1418241803
+ Erro -0.00000000000000473695 - Passos: 10114182
+real 16.28
+user 12.79
+sys 18.00
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1418441143
+ Erro -0.00000000000000473695 - Passos: 10170999
+real 15.26
+user 12.70
+sys 17.09
+cmoreira@CRS_ASUS:~/diciplinas/PEL_216_Programacao_Cientifica/Trabalhos/Codigos/Paralelismo/NewtonOpenMP> time -p ./NewtonOMP_lx
+
+Integral da funcao f(x)=4/(1+x^2)
+ Metodo da Regra dos Pontos Medios: 3.1417801796
+ Erro -0.00000000000000473695 - Passos: 9917601
+real 15.60
+user 12.85
+sys 17.15
+
+
