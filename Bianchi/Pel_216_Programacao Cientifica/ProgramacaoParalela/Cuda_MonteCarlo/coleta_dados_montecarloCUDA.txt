@@ -1,0 +1,2103 @@
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 30
+Inicializa com 30 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097258181600000881417145137675106525421142578125
+real 1.43
+user 0.63
+sys 0.79
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 30
+Inicializa com 30 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09711439040000158229304361157119274139404296875
+real 1.43
+user 0.62
+sys 0.80
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 30
+Inicializa com 30 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09787601000000023532265913672745227813720703125
+real 1.45
+user 0.59
+sys 0.85
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 30
+Inicializa com 30 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0971318120000006501868483610451221466064453125
+real 1.43
+user 0.64
+sys 0.78
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 30
+Inicializa com 30 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097332949999998419343683053739368915557861328125
+real 1.43
+user 0.64
+sys 0.79
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 30
+Inicializa com 30 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097148746399998486822369159199297428131103515625
+real 1.42
+user 0.63
+sys 0.78
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 40
+Inicializa com 40 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09729632599999860076422919519245624542236328125
+real 1.20
+user 0.50
+sys 0.70
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 40
+Inicializa com 40 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097374874399999811203088029287755489349365234375
+real 1.26
+user 0.48
+sys 0.75
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 40
+Inicializa com 40 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0976260091999989754185662604868412017822265625
+real 1.20
+user 0.46
+sys 0.73
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 40
+Inicializa com 40 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097526964800000115474176709540188312530517578125
+real 1.20
+user 0.50
+sys 0.68
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 40
+Inicializa com 40 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0978683491999987609233357943594455718994140625
+real 1.20
+user 0.47
+sys 0.73
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 40
+Inicializa com 40 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09727984519999921531052677892148494720458984375
+real 1.20
+user 0.48
+sys 0.72
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 40
+Inicializa com 40 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097851490400000074032504926435649394989013671875
+real 1.20
+user 0.49
+sys 0.71
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 40
+Inicializa com 40 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097931349199999573329478153027594089508056640625
+real 1.20
+user 0.51
+sys 0.69
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 40
+Inicializa com 40 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097488753200000388687840313650667667388916015625
+real 1.20
+user 0.47
+sys 0.72
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 40
+Inicializa com 40 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097748607199999781869337311945855617523193359375
+real 1.20
+user 0.50
+sys 0.69
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 50
+Inicializa com 50 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097693990399999819373988430015742778778076171875
+real 1.07
+user 0.39
+sys 0.67
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 50
+Inicializa com 50 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0977211643999993384568369947373867034912109375
+real 1.06
+user 0.40
+sys 0.65
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 50
+Inicializa com 50 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09721664359999948601398500613868236541748046875
+real 1.07
+user 0.41
+sys 0.65
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 50
+Inicializa com 50 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097066770800001478392005083151161670684814453125
+real 1.07
+user 0.41
+sys 0.64
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 50
+Inicializa com 50 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09723390559999955939929350279271602630615234375
+real 1.07
+user 0.38
+sys 0.68
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 50
+Inicializa com 50 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097411355599998472598599619232118129730224609375
+real 1.04
+user 0.38
+sys 0.66
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 50
+Inicializa com 50 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097610880800001353918560198508203029632568359375
+real 1.07
+user 0.39
+sys 0.67
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 50
+Inicializa com 50 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09751247479999847200815565884113311767578125
+real 1.07
+user 0.41
+sys 0.65
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 50
+Inicializa com 50 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097671814400001721878652460873126983642578125
+real 1.07
+user 0.38
+sys 0.68
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 50
+Inicializa com 50 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09778602920000167841863003559410572052001953125
+real 1.07
+user 0.41
+sys 0.64
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 60
+Inicializa com 60 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097350060800000193239611689932644367218017578125
+real 0.98
+user 0.34
+sys 0.63
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 60
+Inicializa com 60 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.098020666400000067142173065803945064544677734375
+real 0.97
+user 0.35
+sys 0.62
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 60
+Inicializa com 60 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0976522087999995846985257230699062347412109375
+real 1.02
+user 0.34
+sys 0.65
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 60
+Inicializa com 60 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097323508399998814866194152273237705230712890625
+real 0.97
+user 0.35
+sys 0.62
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 60
+Inicializa com 60 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097474431199998434749431908130645751953125
+real 0.97
+user 0.33
+sys 0.63
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 60
+Inicializa com 60 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097303062799998230048004188574850559234619140625
+real 0.97
+user 0.33
+sys 0.64
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 60
+Inicializa com 60 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097247513599999280131669365800917148590087890625
+real 0.97
+user 0.34
+sys 0.63
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 60
+Inicializa com 60 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097484620399999499795740121044218540191650390625
+real 0.97
+user 0.33
+sys 0.64
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 60
+Inicializa com 60 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097792934000000997230017674155533313751220703125
+real 0.97
+user 0.32
+sys 0.64
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 60
+Inicializa com 60 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09702566120000000182699295692145824432373046875
+real 0.97
+user 0.32
+sys 0.64
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 60
+Inicializa com 60 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097271672000001530022927909158170223236083984375
+real 0.98
+user 0.33
+sys 0.64
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 70
+Inicializa com 70 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097356444799999053429928608238697052001953125
+real 0.99
+user 0.31
+sys 0.63
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 70
+Inicializa com 70 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096978226400000977491799858398735523223876953125
+real 0.89
+user 0.27
+sys 0.61
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 70
+Inicializa com 70 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09748957640000099900134955532848834991455078125
+real 0.90
+user 0.28
+sys 0.62
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 70
+Inicializa com 70 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097516750400000518084198120050132274627685546875
+real 0.90
+user 0.28
+sys 0.61
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 70
+Inicializa com 70 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097555373599998773670449736528098583221435546875
+real 0.91
+user 0.30
+sys 0.60
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 70
+Inicializa com 70 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09760866319999905726945144124329090118408203125
+real 0.91
+user 0.30
+sys 0.60
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 70
+Inicializa com 70 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0972233552000005829540896229445934295654296875
+real 0.91
+user 0.31
+sys 0.60
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 70
+Inicializa com 70 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09787412840000087044245447032153606414794921875
+real 0.91
+user 0.30
+sys 0.61
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 70
+Inicializa com 70 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09752495720000098344826255924999713897705078125
+real 0.96
+user 0.32
+sys 0.62
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 70
+Inicializa com 70 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097159657999998927380147506482899188995361328125
+real 0.91
+user 0.28
+sys 0.62
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 70
+Inicializa com 70 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0973753447999996524231391958892345428466796875
+real 0.90
+user 0.30
+sys 0.59
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 80
+Inicializa com 80 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097474305199998667603722424246370792388916015625
+real 0.84
+user 0.26
+sys 0.57
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 80
+Inicializa com 80 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097587352400001492469527875073254108428955078125
+real 0.86
+user 0.27
+sys 0.58
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 80
+Inicializa com 80 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097330471999999446097717736847698688507080078125
+real 0.85
+user 0.26
+sys 0.58
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 80
+Inicializa com 80 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097376403199998406989834620617330074310302734375
+real 0.85
+user 0.26
+sys 0.59
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 80
+Inicializa com 80 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097494633200000180295319296419620513916015625
+real 0.86
+user 0.27
+sys 0.58
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 80
+Inicializa com 80 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0973891796000003751032636500895023345947265625
+real 0.86
+user 0.28
+sys 0.58
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 80
+Inicializa com 80 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097157431999999488425601157359778881072998046875
+real 0.86
+user 0.26
+sys 0.59
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 80
+Inicializa com 80 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09715001480000040601225919090211391448974609375
+real 0.88
+user 0.26
+sys 0.61
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 80
+Inicializa com 80 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09738950719999905913937254808843135833740234375
+real 0.85
+user 0.27
+sys 0.58
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 80
+Inicializa com 80 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097425635600000504155104863457381725311279296875
+real 0.86
+user 0.27
+sys 0.58
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 90
+Inicializa com 90 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097124378000000177735273609869182109832763671875
+real 0.82
+user 0.25
+sys 0.56
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 90
+Inicializa com 90 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09709949719999855233254493214190006256103515625
+real 0.81
+user 0.24
+sys 0.56
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 90
+Inicializa com 90 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097639961599998770225283806212246417999267578125
+real 0.84
+user 0.23
+sys 0.60
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 90
+Inicializa com 90 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09727228519999897571324254386126995086669921875
+real 0.81
+user 0.24
+sys 0.57
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 90
+Inicializa com 90 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097795235599999585929253953509032726287841796875
+real 0.88
+user 0.26
+sys 0.60
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 90
+Inicializa com 90 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09752382319999952642319840379059314727783203125
+real 0.82
+user 0.25
+sys 0.57
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 90
+Inicializa com 90 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0978620156000005181340384297072887420654296875
+real 0.82
+user 0.24
+sys 0.58
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 90
+Inicializa com 90 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097605605599998312982279458083212375640869140625
+real 0.83
+user 0.23
+sys 0.59
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 90
+Inicializa com 90 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0979307863999991923265042714774608612060546875
+real 0.83
+user 0.26
+sys 0.56
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 90
+Inicializa com 90 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097810490000000527288648299872875213623046875
+real 0.82
+user 0.22
+sys 0.59
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 100
+Inicializa com 100 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0979337264000008644870831631124019622802734375
+real 0.80
+user 0.22
+sys 0.57
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 100
+Inicializa com 100 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097744239200000748724050936289131641387939453125
+real 0.78
+user 0.22
+sys 0.56
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 100
+Inicializa com 100 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097388877200000223410825128667056560516357421875
+real 0.79
+user 0.22
+sys 0.56
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 100
+Inicializa com 100 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09731138720000132025234051980078220367431640625
+real 0.80
+user 0.23
+sys 0.56
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 100
+Inicializa com 100 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097700332399998757182402187027037143707275390625
+real 0.82
+user 0.24
+sys 0.57
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 100
+Inicializa com 100 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097725944000000453115717391483485698699951171875
+real 0.79
+user 0.24
+sys 0.54
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 100
+Inicializa com 100 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09744524119999908862155280075967311859130859375
+real 0.79
+user 0.21
+sys 0.57
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 100
+Inicializa com 100 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097666161199999379505243268795311450958251953125
+real 0.79
+user 0.21
+sys 0.56
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 100
+Inicializa com 100 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0970703240000005962428986094892024993896484375
+real 0.79
+user 0.23
+sys 0.55
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 100
+Inicializa com 100 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09787422080000141022537718527019023895263671875
+real 0.78
+user 0.24
+sys 0.53
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 200
+Inicializa com 200 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09762921800000157190879690460860729217529296875
+real 0.66
+user 0.14
+sys 0.51
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 200
+Inicializa com 200 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0974849143999989564690622501075267791748046875
+real 0.73
+user 0.15
+sys 0.53
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 200
+Inicializa com 200 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09716178320000068424633354879915714263916015625
+real 0.66
+user 0.14
+sys 0.51
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 200
+Inicializa com 200 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097103302400000757188536226749420166015625
+real 0.65
+user 0.13
+sys 0.51
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 200
+Inicializa com 200 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09757320679999992307784850709140300750732421875
+real 0.64
+user 0.12
+sys 0.51
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 200
+Inicializa com 200 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097501621999999343870513257570564746856689453125
+real 0.65
+user 0.13
+sys 0.52
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 200
+Inicializa com 200 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09713869160000143665456562303006649017333984375
+real 0.65
+user 0.14
+sys 0.50
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 200
+Inicializa com 200 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0971754079999982423032633960247039794921875
+real 0.65
+user 0.13
+sys 0.51
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 200
+Inicializa com 200 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097393169600000106811421574093401432037353515625
+real 0.64
+user 0.13
+sys 0.50
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 200
+Inicializa com 200 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09717971719999951574209262616932392120361328125
+real 0.65
+user 0.12
+sys 0.52
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 300
+Inicializa com 300 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09784262000000154557710629887878894805908203125
+real 0.60
+user 0.10
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 300
+Inicializa com 300 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.098001951200000547714807908050715923309326171875
+real 0.63
+user 0.11
+sys 0.50
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 300
+Inicializa com 300 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096985694000000677306161378510296344757080078125
+real 0.63
+user 0.11
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 300
+Inicializa com 300 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0976695632000001978667569346725940704345703125
+real 0.60
+user 0.10
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 300
+Inicializa com 300 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097603530800000726230791769921779632568359375
+real 0.60
+user 0.11
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 300
+Inicializa com 300 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096991112000001322712705587036907672882080078125
+real 0.60
+user 0.11
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 300
+Inicializa com 300 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09692957360000065136773628182709217071533203125
+real 0.60
+user 0.12
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 300
+Inicializa com 300 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09703784119999880886098253540694713592529296875
+real 0.62
+user 0.12
+sys 0.50
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 300
+Inicializa com 300 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09705940399999946066600386984646320343017578125
+real 0.60
+user 0.10
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 300
+Inicializa com 300 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097398730399998356688229250721633434295654296875
+real 0.59
+user 0.11
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 400
+Inicializa com 400 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097588637600001248983971890993416309356689453125
+real 0.58
+user 0.10
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 400
+Inicializa com 400 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0972445652000004656656528823077678680419921875
+real 0.59
+user 0.09
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 400
+Inicializa com 400 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097346532799999607732388540171086788177490234375
+real 0.61
+user 0.11
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 400
+Inicializa com 400 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09734624720000084607818280346691608428955078125
+real 0.63
+user 0.11
+sys 0.50
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 400
+Inicializa com 400 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096892252399999989620482665486633777618408203125
+real 0.59
+user 0.09
+sys 0.50
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 400
+Inicializa com 400 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097757863999998306780980783514678478240966796875
+real 0.59
+user 0.10
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 400
+Inicializa com 400 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09735492440000115266229840926826000213623046875
+real 0.59
+user 0.10
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 400
+Inicializa com 400 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09762359839999845689817448146641254425048828125
+real 0.59
+user 0.10
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 400
+Inicializa com 400 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097138288400000050160087994299829006195068359375
+real 0.58
+user 0.10
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 400
+Inicializa com 400 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09769549399999988281706464476883411407470703125
+real 0.61
+user 0.11
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 500
+Inicializa com 500 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0973524967999992441036738455295562744140625
+real 0.58
+user 0.08
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 500
+Inicializa com 500 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09733062320000129830077639780938625335693359375
+real 0.65
+user 0.09
+sys 0.52
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 500
+Inicializa com 500 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0973285484000001588356099091470241546630859375
+real 0.60
+user 0.09
+sys 0.50
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 500
+Inicializa com 500 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097320098000000854199242894537746906280517578125
+real 0.58
+user 0.08
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 500
+Inicializa com 500 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097533987199998506412157439626753330230712890625
+real 0.57
+user 0.10
+sys 0.47
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 500
+Inicializa com 500 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097107619999999172932803048752248287200927734375
+real 0.57
+user 0.09
+sys 0.47
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 500
+Inicializa com 500 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097195425199998908283305354416370391845703125
+real 0.58
+user 0.09
+sys 0.47
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 500
+Inicializa com 500 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097239038000001443151631974615156650543212890625
+real 0.58
+user 0.09
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 500
+Inicializa com 500 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09722229679999827567371539771556854248046875
+real 0.58
+user 0.09
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 500
+Inicializa com 500 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097223027599998346204301924444735050201416015625
+real 0.57
+user 0.09
+sys 0.47
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 600
+Inicializa com 600 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097515389600001611825064173899590969085693359375
+real 0.56
+user 0.08
+sys 0.47
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 600
+Inicializa com 600 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097741979599998529693039017729461193084716796875
+real 0.57
+user 0.08
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 600
+Inicializa com 600 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096860895199998964244514354504644870758056640625
+real 0.57
+user 0.09
+sys 0.47
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 600
+Inicializa com 600 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09780677719999886221557972021400928497314453125
+real 0.60
+user 0.08
+sys 0.51
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 600
+Inicializa com 600 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0972851623999986259150318801403045654296875
+real 0.57
+user 0.08
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 600
+Inicializa com 600 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097386021199998396014052559621632099151611328125
+real 0.57
+user 0.08
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 600
+Inicializa com 600 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0973885663999993766992702148854732513427734375
+real 0.59
+user 0.09
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 600
+Inicializa com 600 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09791759000000155310772242955863475799560546875
+real 0.58
+user 0.08
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 600
+Inicializa com 600 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097660919599999118645428097806870937347412109375
+real 0.55
+user 0.08
+sys 0.47
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 600
+Inicializa com 600 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097467383600001511467780801467597484588623046875
+real 0.56
+user 0.08
+sys 0.47
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 600
+Inicializa com 600 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0974315071999996007434674538671970367431640625
+real 0.57
+user 0.08
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 700
+Inicializa com 700 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0975207404000002497923560440540313720703125
+real 0.56
+user 0.08
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 700
+Inicializa com 700 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097684851200000366588938049972057342529296875
+real 0.58
+user 0.07
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 700
+Inicializa com 700 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09718547119999954020386212505400180816650390625
+real 0.59
+user 0.09
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 700
+Inicializa com 700 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097177776799998838441752013750374317169189453125
+real 0.58
+user 0.09
+sys 0.47
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 700
+Inicializa com 700 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097401401599999104519156389869749546051025390625
+real 0.57
+user 0.08
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 700
+Inicializa com 700 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0973470787999985986971296370029449462890625
+real 0.59
+user 0.08
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 700
+Inicializa com 700 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097514868800001153203993453644216060638427734375
+real 0.59
+user 0.09
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 700
+Inicializa com 700 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097420200799998468710327870212495326995849609375
+real 0.58
+user 0.08
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 700
+Inicializa com 700 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097304969599999679985558032058179378509521484375
+real 0.57
+user 0.08
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 700
+Inicializa com 700 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0973517155999985561720677651464939117431640625
+real 0.57
+user 0.09
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 800
+Inicializa com 800 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097519581200000260423621512018144130706787109375
+real 0.60
+user 0.09
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 800
+Inicializa com 800 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097616626400000683361213305033743381500244140625
+real 0.59
+user 0.07
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 800
+Inicializa com 800 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097177365200000309641836793161928653717041015625
+real 0.57
+user 0.07
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 800
+Inicializa com 800 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096869320399999736537210992537438869476318359375
+real 0.59
+user 0.08
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 800
+Inicializa com 800 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097373664799999204433333943597972393035888671875
+real 0.59
+user 0.08
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 800
+Inicializa com 800 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097703767999998802906702621839940547943115234375
+real 0.56
+user 0.08
+sys 0.47
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 800
+Inicializa com 800 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097670797999999336980181396938860416412353515625
+real 0.56
+user 0.08
+sys 0.47
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 800
+Inicializa com 800 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0969575708000007807640940882265567779541015625
+real 0.56
+user 0.08
+sys 0.47
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 800
+Inicializa com 800 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097493138000000811871359474025666713714599609375
+real 0.57
+user 0.08
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 800
+Inicializa com 800 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096886481599998575120480381883680820465087890625
+real 0.56
+user 0.09
+sys 0.47
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 900
+Inicializa com 900 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097411960399998775983476662077009677886962890625
+real 0.60
+user 0.08
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 900
+Inicializa com 900 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09729719959999982847875799052417278289794921875
+real 0.57
+user 0.07
+sys 0.47
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 900
+Inicializa com 900 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097091752400000785883094067685306072235107421875
+real 0.55
+user 0.07
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 900
+Inicializa com 900 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097762685599999343821764341555535793304443359375
+real 0.58
+user 0.08
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 900
+Inicializa com 900 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09686659879999837130526429973542690277099609375
+real 0.55
+user 0.07
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 900
+Inicializa com 900 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097344382399999318522532121278345584869384765625
+real 0.57
+user 0.08
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 900
+Inicializa com 900 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096772283600000008618735591880977153778076171875
+real 0.56
+user 0.08
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 900
+Inicializa com 900 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097285742000000396956238546408712863922119140625
+real 0.58
+user 0.08
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 900
+Inicializa com 900 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097264968800001128101939684711396694183349609375
+real 0.56
+user 0.08
+sys 0.47
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 900
+Inicializa com 900 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09709496960000052467876230366528034210205078125
+real 0.57
+user 0.07
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 1000
+Inicializa com 1000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097003527199998273999881348572671413421630859375
+real 0.61
+user 0.07
+sys 0.51
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 1000
+Inicializa com 1000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097963899199999815436967764981091022491455078125
+real 0.61
+user 0.08
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 1000
+Inicializa com 1000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0977864492000009022376616485416889190673828125
+real 0.56
+user 0.07
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 1000
+Inicializa com 1000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097534171999999585978002869524061679840087890625
+real 0.58
+user 0.08
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 1000
+Inicializa com 1000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09729068120000050612361519597470760345458984375
+real 0.58
+user 0.07
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 1000
+Inicializa com 1000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0974727344000001494350726716220378875732421875
+real 0.56
+user 0.07
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 1000
+Inicializa com 1000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097350489200000112077759695239365100860595703125
+real 0.57
+user 0.09
+sys 0.47
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 1000
+Inicializa com 1000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0972452371999992237761034630239009857177734375
+real 0.58
+user 0.08
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 1000
+Inicializa com 1000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09735628520000005892143235541880130767822265625
+real 0.56
+user 0.07
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 1000
+Inicializa com 1000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.097968107599999854073757887817919254302978515625
+real 0.57
+user 0.07
+sys 0.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 10000
+Inicializa com 10000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096137840000000807094693300314247608184814453125
+real 0.69
+user 0.13
+sys 0.52
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 10000
+Inicializa com 10000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.095821445599998611442060791887342929840087890625
+real 0.62
+user 0.11
+sys 0.50
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 10000
+Inicializa com 10000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.095969755999998795914507354609668254852294921875
+real 0.61
+user 0.11
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 10000
+Inicializa com 10000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096275423600001630575206945650279521942138671875
+real 0.62
+user 0.12
+sys 0.50
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 10000
+Inicializa com 10000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.095823427999999211124304565601050853729248046875
+real 0.61
+user 0.12
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 10000
+Inicializa com 10000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096344345599998604257052647881209850311279296875
+real 0.62
+user 0.10
+sys 0.51
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 10000
+Inicializa com 10000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.095759168000000727261067368090152740478515625
+real 0.62
+user 0.11
+sys 0.51
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 10000
+Inicializa com 10000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096042306800001142619294114410877227783203125
+real 0.62
+user 0.11
+sys 0.50
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 10000
+Inicializa com 10000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.095446519999999424044290208257734775543212890625
+real 0.62
+user 0.12
+sys 0.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 10000
+Inicializa com 10000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096247493599999955904422677122056484222412109375
+real 0.65
+user 0.11
+sys 0.53
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 20000
+Inicializa com 20000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09618545960000091099573182873427867889404296875
+real 1.05
+user 0.39
+sys 0.66
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 20000
+Inicializa com 20000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096155782400000333609568770043551921844482421875
+real 1.05
+user 0.39
+sys 0.65
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 20000
+Inicializa com 20000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096115227199998543028414133004844188690185546875
+real 1.05
+user 0.37
+sys 0.68
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 20000
+Inicializa com 20000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096029874799999248580206767655909061431884765625
+real 1.07
+user 0.39
+sys 0.67
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 20000
+Inicializa com 20000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.095920313600000639553400105796754360198974609375
+real 1.05
+user 0.39
+sys 0.66
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 20000
+Inicializa com 20000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096392410400000017034471966326236724853515625
+real 1.09
+user 0.40
+sys 0.67
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 20000
+Inicializa com 20000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096626358799998257609331631101667881011962890625
+real 1.06
+user 0.39
+sys 0.66
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 20000
+Inicializa com 20000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.095999828000000064776031649671494960784912109375
+real 1.06
+user 0.40
+sys 0.66
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 20000
+Inicializa com 20000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09559266320000148198232636786997318267822265625
+real 1.07
+user 0.40
+sys 0.66
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 20000
+Inicializa com 20000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096031159999999005094650783576071262359619140625
+real 1.05
+user 0.41
+sys 0.64
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 30000
+Inicializa com 30000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09597077240000118081297841854393482208251953125
+real 1.50
+user 0.66
+sys 0.83
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 30000
+Inicializa com 30000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.095574746000000487811121274717152118682861328125
+real 1.51
+user 0.66
+sys 0.84
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 30000
+Inicializa com 30000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09614193080000177360489033162593841552734375
+real 1.50
+user 0.65
+sys 0.84
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 30000
+Inicializa com 30000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096483407600000958836972131393849849700927734375
+real 1.50
+user 0.67
+sys 0.81
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 30000
+Inicializa com 30000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09600974840000020549268811009824275970458984375
+real 1.50
+user 0.61
+sys 0.88
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 30000
+Inicializa com 30000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09594913400000137926326715387403964996337890625
+real 1.50
+user 0.65
+sys 0.84
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 30000
+Inicializa com 30000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.095921758399999390576340374536812305450439453125
+real 1.50
+user 0.65
+sys 0.84
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 30000
+Inicializa com 30000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0961096244000003707697032950818538665771484375
+real 1.51
+user 0.68
+sys 0.82
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 30000
+Inicializa com 30000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0955024555999983704168698750436305999755859375
+real 1.52
+user 0.68
+sys 0.83
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 30000
+Inicializa com 30000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0959010440000014341421774588525295257568359375
+real 1.50
+user 0.67
+sys 0.83
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 40000
+Inicializa com 40000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096007547599999298881812137551605701446533203125
+real 1.97
+user 0.94
+sys 1.02
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 40000
+Inicializa com 40000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09659437159999839650481590069830417633056640625
+real 1.97
+user 0.96
+sys 1.00
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 40000
+Inicializa com 40000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09604127360000092039626906625926494598388671875
+real 1.96
+user 0.94
+sys 1.01
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 40000
+Inicializa com 40000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.095803620800001709767457214184105396270751953125
+real 1.97
+user 0.94
+sys 1.02
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 40000
+Inicializa com 40000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.095945816000000405665559810586273670196533203125
+real 1.95
+user 0.93
+sys 1.01
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 40000
+Inicializa com 40000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096027136400000046023706090636551380157470703125
+real 1.98
+user 0.91
+sys 1.06
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 40000
+Inicializa com 40000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.095925009199998356734795379452407360076904296875
+real 1.96
+user 0.97
+sys 0.98
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 40000
+Inicializa com 40000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09556695079999855124697205610573291778564453125
+real 1.97
+user 0.99
+sys 0.97
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 40000
+Inicializa com 40000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0960156032000014647564967162907123565673828125
+real 1.95
+user 0.94
+sys 1.01
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 40000
+Inicializa com 40000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.095860934000000952437403611838817596435546875
+real 1.97
+user 0.97
+sys 0.99
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 50000
+Inicializa com 50000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.090029208800000759538306738249957561492919921875
+real 2.47
+user 1.28
+sys 1.14
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 50000
+Inicializa com 50000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.090768686000000542435373063199222087860107421875
+real 2.41
+user 1.23
+sys 1.18
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 50000
+Inicializa com 50000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09068782760000004827816155739128589630126953125
+real 2.41
+user 1.19
+sys 1.21
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 50000
+Inicializa com 50000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.090123641600001747065107338130474090576171875
+real 2.40
+user 1.23
+sys 1.16
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 50000
+Inicializa com 50000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.090069058400001011932545225135982036590576171875
+real 2.41
+user 1.21
+sys 1.18
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 50000
+Inicializa com 50000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.090309592400000582301800022833049297332763671875
+real 2.42
+user 1.25
+sys 1.16
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 50000
+Inicializa com 50000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.090170547199999617760113324038684368133544921875
+real 2.38
+user 1.27
+sys 1.11
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 50000
+Inicializa com 50000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.08991742159999915884327492676675319671630859375
+real 2.44
+user 1.24
+sys 1.19
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 50000
+Inicializa com 50000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.090180686000000065405401983298361301422119140625
+real 2.44
+user 1.23
+sys 1.20
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 50000
+Inicializa com 50000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.089526376399998497390697593800723552703857421875
+real 2.44
+user 1.21
+sys 1.22
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 60000
+Inicializa com 60000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0962295092000005070076440460979938507080078125
+real 2.85
+user 1.55
+sys 1.29
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 60000
+Inicializa com 60000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09613699999999880674295127391815185546875
+real 2.96
+user 1.53
+sys 1.36
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 60000
+Inicializa com 60000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096466716799998408760075108148157596588134765625
+real 2.88
+user 1.53
+sys 1.34
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 60000
+Inicializa com 60000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09613641199999989339630701579153537750244140625
+real 2.88
+user 1.56
+sys 1.31
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 60000
+Inicializa com 60000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.095881329200000919854574021883308887481689453125
+real 2.88
+user 1.55
+sys 1.32
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 60000
+Inicializa com 60000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0966027212000000190528226085007190704345703125
+real 2.86
+user 1.52
+sys 1.33
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 60000
+Inicializa com 60000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.095948823200000532551712240092456340789794921875
+real 2.86
+user 1.53
+sys 1.32
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 60000
+Inicializa com 60000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.095890661599998594510907423682510852813720703125
+real 2.88
+user 1.53
+sys 1.34
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 60000
+Inicializa com 60000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0960367208000008076851372607052326202392578125
+real 2.86
+user 1.50
+sys 1.35
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 60000
+Inicializa com 60000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09634234640000016725025488995015621185302734375
+real 2.89
+user 1.54
+sys 1.34
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 60000
+Inicializa com 60000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.095395280000001747566784615628421306610107421875
+real 2.87
+user 1.52
+sys 1.34
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 70000
+Inicializa com 70000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.095309482400001144242196460254490375518798828125
+real 3.41
+user 1.84
+sys 1.51
+[alunopos@HPE02 IntegralCuda]$
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 70000
+Inicializa com 70000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096585173600001184013308375142514705657958984375
+real 3.33
+user 1.83
+sys 1.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 70000
+Inicializa com 70000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096258984799998614789728890173137187957763671875
+real 3.33
+user 1.88
+sys 1.44
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 70000
+Inicializa com 70000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09588626840000102902195067144930362701416015625
+real 3.35
+user 1.76
+sys 1.57
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 70000
+Inicializa com 70000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09588375679999927569951978512108325958251953125
+real 3.33
+user 1.81
+sys 1.51
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 70000
+Inicializa com 70000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096349259600000181080758920870721340179443359375
+real 3.35
+user 1.77
+sys 1.57
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 70000
+Inicializa com 70000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09656518159999905037693679332733154296875
+real 3.35
+user 1.81
+sys 1.53
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 70000
+Inicializa com 70000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096092589200001299332143389619886875152587890625
+real 3.32
+user 1.80
+sys 1.50
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 70000
+Inicializa com 70000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0961248955999991494536516256630420684814453125
+real 3.34
+user 1.85
+sys 1.48
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 70000
+Inicializa com 70000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096043037600001213149880641140043735504150390625
+real 3.33
+user 1.82
+sys 1.49
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 70000
+Inicializa com 70000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096114202399999015824505477212369441986083984375
+real 3.31
+user 1.75
+sys 1.55
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 80000
+Inicializa com 80000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0853981124000000590967829339206218719482421875
+real 3.91
+user 2.09
+sys 1.74
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 80000
+Inicializa com 80000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.084996348800000731671389075927436351776123046875
+real 3.82
+user 2.10
+sys 1.70
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 80000
+Inicializa com 80000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.084446299999999752117219031788408756256103515625
+real 3.79
+user 2.12
+sys 1.66
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 80000
+Inicializa com 80000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.08466653960000058987134252674877643585205078125
+real 3.79
+user 2.13
+sys 1.65
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 80000
+Inicializa com 80000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.084810162800000199467831407673656940460205078125
+real 3.81
+user 2.11
+sys 1.69
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 80000
+Inicializa com 80000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.084329607200000822331276140175759792327880859375
+real 3.79
+user 2.11
+sys 1.66
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 80000
+Inicializa com 80000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.08496915799999982255030772648751735687255859375
+real 3.82
+user 2.09
+sys 1.72
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 80000
+Inicializa com 80000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.084855833599998931049412931315600872039794921875
+real 3.80
+user 2.11
+sys 1.67
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 80000
+Inicializa com 80000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.084912458000001578284354764036834239959716796875
+real 3.81
+user 2.16
+sys 1.64
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 80000
+Inicializa com 80000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.084424880000000257496139965951442718505859375
+real 3.81
+user 2.01
+sys 1.79
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 90000
+Inicializa com 90000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.095820672799998618529571103863418102264404296875
+real 4.34
+user 2.38
+sys 1.91
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 90000
+Inicializa com 90000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096360330799999616147033520974218845367431640625
+real 4.26
+user 2.35
+sys 1.90
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 90000
+Inicializa com 90000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09653984719999897379238973371684551239013671875
+real 4.26
+user 2.34
+sys 1.91
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 90000
+Inicializa com 90000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096072714799998237822364899329841136932373046875
+real 4.28
+user 2.37
+sys 1.90
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 90000
+Inicializa com 90000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.095864487200000070288297138176858425140380859375
+real 4.26
+user 2.33
+sys 1.93
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 90000
+Inicializa com 90000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096388000400001061507282429374754428863525390625
+real 4.26
+user 2.35
+sys 1.90
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 90000
+Inicializa com 90000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096372342799998733653410454280674457550048828125
+real 4.26
+user 2.39
+sys 1.85
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 90000
+Inicializa com 90000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0962159179999986235998221673071384429931640625
+real 4.27
+user 2.33
+sys 1.91
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 90000
+Inicializa com 90000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.096878425999999961959474603645503520965576171875
+real 4.25
+user 2.40
+sys 1.84
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 90000
+Inicializa com 90000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09581290279999876702277106232941150665283203125
+real 4.27
+user 2.40
+sys 1.85
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 100000
+Inicializa com 100000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0904763911999992842538631521165370941162109375
+real 4.87
+user 2.69
+sys 2.07
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 100000
+Inicializa com 100000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.09038459599999981719520292244851589202880859375
+real 4.75
+user 2.76
+sys 1.97
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 100000
+Inicializa com 100000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.089927501599998294068427640013396739959716796875
+real 4.73
+user 2.63
+sys 2.09
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 100000
+Inicializa com 100000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.090483321200000688122599967755377292633056640625
+real 4.72
+user 2.66
+sys 2.05
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 100000
+Inicializa com 100000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.091020450799998542379398713819682598114013671875
+real 4.75
+user 2.71
+sys 2.03
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 100000
+Inicializa com 100000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.08971658600000154137887875549495220184326171875
+real 4.73
+user 2.67
+sys 2.04
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 100000
+Inicializa com 100000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.089791060399999622632094542495906352996826171875
+real 4.75
+user 2.71
+sys 2.02
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 100000
+Inicializa com 100000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0904467056000015645622625015676021575927734375
+real 4.73
+user 2.67
+sys 2.03
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 100000
+Inicializa com 100000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.090240267199998669411797891370952129364013671875
+real 4.74
+user 2.63
+sys 2.09
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 100000
+Inicializa com 100000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.090676025600000542681300430558621883392333984375
+real 4.76
+user 2.68
+sys 2.04
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 200000
+Inicializa com 200000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.061711011199999887821832089684903621673583984375
+real 12.33
+user 7.41
+sys 4.87
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 200000
+Inicializa com 200000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0620187536000003092340193688869476318359375
+real 12.32
+user 7.43
+sys 4.86
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 200000
+Inicializa com 200000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.062153178799999153625321923755109310150146484375
+real 12.28
+user 7.37
+sys 4.89
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 200000
+Inicializa com 200000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.061350004400001267867992282845079898834228515625
+real 12.37
+user 7.27
+sys 5.04
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 200000
+Inicializa com 200000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.061896508400000271876706392504274845123291015625
+real 12.38
+user 7.37
+sys 4.92
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 200000
+Inicializa com 200000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.06262692199999975173341226764023303985595703125
+real 12.31
+user 7.24
+sys 5.04
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 200000
+Inicializa com 200000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0616297328000001698455889709293842315673828125
+real 12.31
+user 7.25
+sys 5.04
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 200000
+Inicializa com 200000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0617033083999984910406055860221385955810546875
+real 12.29
+user 7.41
+sys 4.85
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 200000
+Inicializa com 200000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.06182666240000145307931234128773212432861328125
+real 12.28
+user 7.40
+sys 4.85
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 200000
+Inicializa com 200000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.062472992000000004964022082276642322540283203125
+real 12.36
+user 7.48
+sys 4.81
+[alunopos@HPE02 IntegralCuda]$
+
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 500000
+Inicializa com 500000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.062087910799998979882730054669082164764404296875
+real 39.03
+user 23.64
+sys 15.29
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 500000
+Inicializa com 500000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.061574301200000292055847239680588245391845703125
+real 39.03
+user 24.38
+sys 14.53
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 500000
+Inicializa com 500000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.06243789679999878217131481505930423736572265625
+real 39.00
+user 23.73
+sys 15.19
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 500000
+Inicializa com 500000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.061724047999998532532117678783833980560302734375
+real 38.96
+user 24.06
+sys 14.83
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 500000
+Inicializa com 500000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.06178165520000078458906500600278377532958984375
+real 39.04
+user 23.81
+sys 15.14
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 500000
+Inicializa com 500000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.061947252799999574790490441955626010894775390625
+real 38.95
+user 23.98
+sys 14.91
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 500000
+Inicializa com 500000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.062081190800000740637187846004962921142578125
+real 39.03
+user 24.08
+sys 14.82
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 500000
+Inicializa com 500000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0622716355999983761648763902485370635986328125
+real 38.97
+user 23.82
+sys 15.08
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 500000
+Inicializa com 500000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+        Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.06176402359999855207206564955413341522216796875
+real 38.97
+user 24.28
+sys 14.62
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 500000
+Inicializa com 500000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.06196196959999866749058128334581851959228515625
+real 38.97
+user 24.04
+sys 14.86
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 1000000
+Inicializa com 1000000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.06204071959999879481983953155577182769775390625
+real 84.09
+user 52.90
+sys 31.02
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 1000000
+Inicializa com 1000000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0619871528000004445857484824955463409423828125
+real 84.06
+user 52.13
+sys 31.78
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 1000000
+Inicializa com 1000000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.062300119999999736819518147967755794525146484375
+real 84.05
+user 51.87
+sys 32.02
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 1000000
+Inicializa com 1000000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.062334669199998415933805517852306365966796875
+real 84.05
+user 51.48
+sys 32.42
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 1000000
+Inicializa com 1000000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.06203781319999990273572620935738086700439453125
+real 84.09
+user 52.24
+sys 31.66
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 1000000
+Inicializa com 1000000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+^[[AVolume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.0618647731999999450636096298694610595703125
+real 84.09
+user 52.37
+sys 31.58
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 1000000
+Inicializa com 1000000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.061811492000000356483724317513406276702880859375
+real 84.13
+user 52.57
+sys 31.34
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 1000000
+Inicializa com 1000000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.062303328799998780596069991588592529296875
+real 84.10
+user 51.91
+sys 32.01
+[alunopos@HPE02 IntegralCuda]$ time -p ./IntegralNumericaGPU 5000000000 1000000
+Inicializa com 1000000 Cuda Blocks, 32 threads,  5000000000 interacoes e 2 GPUs
+Volume aproximado do Toroide, Metodo de Monte Carlo, com  5000000000 testes aleatorios
+Volume Toroide ~= 22.06179667440000002898159436881542205810546875
+real 84.09
+user 51.86
+sys 32.06
