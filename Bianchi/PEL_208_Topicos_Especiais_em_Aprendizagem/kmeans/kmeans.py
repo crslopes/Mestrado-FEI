@@ -263,6 +263,8 @@ def distEuclides(A,B):
     distancia=distancia**(1/2)
     return distancia
 
+## Rotina para Calculo ddo centroide de uma massa de pontos
+## Recebe uma matriz vetorial de pontos e retorna o ponto de centro dos pontos
 def centroid(Pontos):
     ln = np.size(Pontos, 0)  # numero de linhas da matriz A
     col = np.size(Pontos, 1)  # numero de colunas da matriz A
@@ -278,10 +280,6 @@ def centroid(Pontos):
     for i in range(0,col,1):
         Centroids.append(mean[0][i])
     return Centroids
-
-
-def dist(a, b, ax=1):
-    return np.linalg.norm((a - b), axis=ax)
 
 
 def main ():
@@ -305,7 +303,7 @@ def main ():
         dadosClasse = np.empty(((qtElementos - 1), tbCol))
 
         for i in range(1, qtElementos, 1):
-            ################### Carrega Variável PCA e LDA  ############################################
+            ################### Carrega Variável PCA e Kmeans  ############################################
             for j in range(0, tbCol, 1):
                 if j > 0:
                     dadosBase[(i - 1)][(j - 1)] = sh.cell_value(rowx=i, colx=j)
@@ -331,6 +329,8 @@ def main ():
         PCA_Λ = matriz_autovalores(PCA_Σ)
         print('autovalores PCA Λ:', PCA_Λ)
 
+        ############################prepara a massa de dados para utilizar em k-means###################################
+
         dadosBaseOrig, PCA_orderVector = matriz_feature_vector(dadosBase, PCA_Λ)
         print('Ordem de relevancia PCA Λ:', PCA_orderVector)
 
@@ -342,18 +342,21 @@ def main ():
         print("linhas:", np.size(dadosClasseOrig, 0), end="")
         print(" - colunas:", tbCol+1)
 
+        ##############################################    k-means    ###################################################
+
+        #### loop para remover dimensoes da massa dados para posterior comparacao de resultados entre os resultados ####
         for dimensoes in range(3, (tbCol + 1), 1):
-            ################################################################################################################
+            #############################################################################################################
             # Exclui vetor menos significativo
             PCA_reduction = tbCol - dimensoes
             dadosClasse = dadosClasseOrig[:, 0:(np.size(dadosClasseOrig, 1) - PCA_reduction)]
             dadosBase = dadosBaseOrig[:, 0:(np.size(dadosBaseOrig, 1) - PCA_reduction)]
 
-            ################################################################################################################
+            #############################################################################################################
             print("#################################################\ndimensoes:", (dimensoes-1) , end="")
-            print(" e qtGrupos:", qtGrupos)
-
-
+            print("#################################################")
+            ### variavel dimensoes = dimensoes da massa de dados +1 -
+            ### imprime a massa aoriginal quando o numero de dimensoes é 2 = variavel dimensoes 3
             if dimensoes==3:
                 ################### Segmenta os Grupos para o Original  ############################################
                 dadosType = []
@@ -385,7 +388,9 @@ def main ():
                 plt.ylabel(Label[PCA_orderVector[1]])
                 plt.show()
 
-            ########################################### FIM Plota Original #################################################
+            ########################################### FIM Plota Original #############################################
+
+            ####### variavels para uso na segentacao dos eixos e dimensoes ####
 
             dbDatabase = pd.DataFrame({'type': dadosClasse[:, 0]})
 
@@ -393,33 +398,40 @@ def main ():
             initCentroids = np.empty((qtGrupos, (dimensoes - 1)))
 
 
-            ############################################ Obtem limites das dimensoes ###########################################
+            ###################### Obtem limites das dimensoes para limitar os centroides iniciais #####################
             for i in range(1, (dimensoes), 1):
                 labelA = str(Label[(i-1)])
                 limitEixosd[0][(i - 1)] = np.min(dadosClasse[:, i])
                 limitEixosd[1][(i - 1)] = np.max(dadosClasse[:, i])
                 dbDatabase[labelA] = deepcopy(dadosClasse[:,i])
 
-            ################ Define centroides iniciais como passos iguais dentro do maximo e minimo dos eixos ##################
+            ###########Define centroides iniciais como passos randomicos dentro do maximo e minimo dos eixos ###########
             for i in range(0, qtGrupos, 1):
                 for j in range(0, (dimensoes-1), 1):
                     Δ = (limitEixosd[1][j] - limitEixosd[0][j]) / (qtGrupos)
                     initCentroids[i][j] = limitEixosd[0][j] + Δ * random.uniform(0, 1)+ i * Δ
             initCentroidsOrig=deepcopy(initCentroids)
+
+            #######################  inicializa variavel para agrupar os dados classificados ###########################
             dadosTypeBase=[]
             for i in range(0, qtGrupos, 1):
                 dadosTypeBase.append([])
+            ########################## inicializa variavel de parada das interacoes - Erro #############################
             erro=1
             interacoes=0
+
+            ################ realizad loop enquanto os itens dos grupos estiverem alterando - erro =1 ##################
             while erro:
                 interacoes+=1
                 if interacoes%10==0:
                     print(".", end='')
+                ##################### variabels dos agrupamentos das interacoes regionai ##########################
                 dadosType = []
                 grpCentroid = []
                 for i in range(0, qtGrupos, 1):
                     dadosType.append([])
                     grpCentroid.append([])
+                #### para cada agrupamento calcula o novo centroide e reagrupa os dados pela distancia deste entroide###
                 for i in range (0, (qtElementos-1), 1):
                     distCentroids = np.empty((qtGrupos, 1))
                     for j in range(0, qtGrupos, 1):
@@ -431,24 +443,26 @@ def main ():
                         grpCentroid[i] = centroid(np.array(dadosType[i]))
                 initCentroids=deepcopy(np.array(grpCentroid))
                 erro=0
+
+                ################# verifica se a innteracao atual alterou a disposicao dos grupos #####################
                 for i in range(0,qtGrupos,1):
                     if len(dadosTypeBase[i]) != len(dadosType[i]):
                         erro += 1
                     else:
+                    #### subtrai a matraiz de agrupamento da matriz de controle, caso exista diferencas informa erro ###
                         checkDados=np.array(dadosType[i])-np.array(dadosTypeBase[i])
                         for j in range (0,np.size(checkDados,0),1):
                             for w in range (0,np.size(checkDados,1),1):
                                 if checkDados[j][w] !=0:
                                     erro += 1
-
+                #### define limite de interacoes para evitar loop eterno em casos de dados equidistantes de centroides ####
                 if interacoes > 1000:
                     print ("dadosType", dadosType)
                     erro=0
+                ######################### re-define matriz de controle de grupos #########################
                 dadosTypeBase=deepcopy(dadosType)
             print("dimensoes:", dimensoes , end="")
             print(" e interacoes:", interacoes)
-
-
 
             ################################## Plota Original 2D  - Eixos originais  #######################################
 
